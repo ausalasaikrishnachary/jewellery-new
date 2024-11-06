@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Footer() {
+function Schemes() {
   return (
     <div>
-      
+      Schemes
     </div>
   )
 }
 
-export default Footer
+export default Schemes

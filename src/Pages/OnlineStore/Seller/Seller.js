@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Footer() {
+function Seller() {
   return (
     <div>
-      
+      Seller
     </div>
   )
 }
 
-export default Footer
+export default Seller
