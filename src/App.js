@@ -10,13 +10,15 @@ import Schemes from "./Pages/OfflineStore/Schemes/Schemes";
 import Seller from "./Pages/OnlineStore/Seller/Seller";
 import User from "./Pages/OnlineStore/User/User";
 import Contact from "./Pages/Contact/Contact";
-import Header from "./Header/Header";
+// import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
+import Navbar from "./Navbar/Navbar";
 
 function App() {
   return (
     <Router>
-      < Header />
+      {/* < Header /> */}
+      < Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/schemes" exact element={<Schemes />} />
