@@ -23,8 +23,8 @@ function Seller() {
           <p>Join our platform and reach thousands of jewellery lovers worldwide. Showcase your stunning collections and grow your business effortlessly.</p>
         </div>
       </div>
-        {/* Gold Products Section */}
-        <div className="gold-products-section">
+      {/* Gold Products Section */}
+      <div className="gold-products-section">
         <h2>Featured Gold Products</h2>
         <div className="cards-container">
           <div className="product-card">
@@ -54,8 +54,8 @@ function Seller() {
           </div>
         </div>
       </div>
-       {/* CTA Section */}
-       <div className="cta-section">
+      {/* CTA Section */}
+      <div className="cta-section">
         <p>If you have a jewellery business, you can sell your products through our website. For more details, contact us or register here to start selling:</p>
         <button className="cta-button" onClick={handleRegisterClick}>
           Register Here
@@ -63,8 +63,8 @@ function Seller() {
       </div>
 
 
-       {/* Features Section */}
-       <div className="features-section">
+      {/* Features Section */}
+      <div className="features-section">
         <div className="features-left">
           <h2>Why Sell Your Jewellery With Us?</h2>
           <ul className="features-list">
@@ -78,6 +78,65 @@ function Seller() {
         <div className="features-right">
           <img src={pic6} alt="Jewellery Display" />
         </div>
+      </div>
+
+
+
+      {/* Benefits Section */}
+      <div className="benefits-section">
+        <h2>Why Sell on Our Platform?</h2>
+
+        {/* Advantages */}
+        <div className="benefits-content">
+          <div className="benefit-item">
+            <h3>Reach a Wider Audience</h3>
+            <p>Connect with customers from across the globe, increasing your reach and sales potential.</p>
+          </div>
+          <div className="benefit-item">
+            <h3>Increase Your Sales</h3>
+            <p>Our platform is optimized to help your jewellery stand out, helping boost sales by up to 40%.</p>
+          </div>
+          <div className="benefit-item">
+            <h3>Hassle-Free Management</h3>
+            <p>Manage your inventory, orders, and payments effortlessly with our intuitive interface.</p>
+          </div>
+        </div>
+
+        {/* Testimonials */}
+        <div className="testimonials">
+          <h3>What Our Sellers Say</h3>
+          <div className="testimonial-cards">
+            <div className="testimonial-card">
+              <p>"Selling on this platform has been a game changer for my business. I've reached customers I never could have before!"</p>
+              <strong>- Sarah L., Jewellery Designer</strong>
+            </div>
+            <div className="testimonial-card">
+              <p>"The sales have been incredible since I started using this platform. It's easy to manage and the support is fantastic."</p>
+              <strong>- John D., Jewellery Seller</strong>
+            </div>
+          </div>
+        </div>
+
+        {/* Statistics */}
+        <div className="statistics">
+          <h3>Platform Success at a Glance</h3>
+          <div className="stats-cards">
+            <div className="stats-card">
+              <h4>40%</h4>
+              <p>Increase in Sales</p>
+            </div>
+            <div className="stats-card">
+              <h4>200+</h4>
+              <p>Successful Sellers</p>
+            </div>
+            <div className="stats-card">
+              <h4>5K+</h4>
+              <p>Jewellery Products Sold</p>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   );
