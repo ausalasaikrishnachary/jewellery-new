@@ -1,0 +1,80 @@
+/* Container for the Hero carousel */
+.hero-carousel-container {
+    width: 100%;
+    /* max-width: 1525px; */
+    margin: 0 auto;
+  }
+  
+  /* Custom styles for the carousel */
+  .hero-carousel {
+    height: 80%; /* Adjusted height */
+  }
+  
+  /* Container for each slide's background */
+  .hero-slide {
+    position: relative;
+    height: 95%; /* Match the carousel height */
+  }
+  
+  /* Style the background image of each slide */
+  .hero-image {
+    width: 100%;
+    height: 100%; /* Adjust height to fit the container */
+    object-fit: cover;
+  }
+  
+  /* Text container over the image background */
+  .hero-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Optional background for text contrast */
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: white;
+    text-align: center;
+    z-index: 1; /* Ensure text is on top of the image */
+    padding: 0 20px;
+  }
+  
+  /* Style for main text (title) */
+  .hero-main-text {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for sub-text */
+  .hero-sub-text {
+    margin-top: 1rem;
+    font-size: 25px;
+  }
+  
+  /* Ensures text spans on new lines */
+  .hero-line1, .hero-line2, .hero-subline1, .hero-subline2 {
+    display: block;
+  }
+  
+  /* Mobile responsive styles */
+  @media screen and (max-width: 768px) {
+    .hero-main-text {
+      font-size: 16px;
+    }
+    .hero-sub-text {
+      display: none;
+    }
+  
+    .hero-carousel {
+      height: 90%; /* Adjusted height */
+    }
+  
+    .hero-slide {
+      height: 90%; /* Match the carousel height */
+    }
+  }
+  

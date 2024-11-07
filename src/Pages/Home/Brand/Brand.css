@@ -1,0 +1,110 @@
+/* Base Styles for .brand-card */
+.brand-card {
+    position: relative;
+    background-image: url('./Images/Brand.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #333;
+    overflow: hidden;
+}
+
+/* Overlay effect */
+.brand-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    border-radius: 8px; /* Match card's border radius */
+    z-index: 0; /* Place behind text */
+}
+
+.brand-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Text Styles */
+.brand-card h2,
+.brand-card p {
+    position: relative;
+    z-index: 1; /* Ensure text is above overlay */
+    color: #fff; /* White for contrast against overlay */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.brand-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.brand-card p {
+    font-size: 16px;
+    max-width: 85%; /* Limits paragraph width */
+    margin: 10px auto;
+    text-align: justify; /* Justify text for readability */
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .brand-card {
+        max-width: 70%;
+        padding: 25px;
+        margin: 20px auto;
+    }
+
+    .brand-card h2 {
+        font-size: 26px;
+    }
+
+    .brand-card p {
+        font-size: 18px;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 1025px) {
+    .brand-card {
+        max-width: 90%;
+        padding: 30px;
+        margin: 40px auto;
+        height: 268px;
+    }
+
+    .brand-card h2 {
+        font-size: 28px;
+    }
+
+    .brand-card p {
+        font-size: 18px;
+        width: 80%; /* Constrains paragraph width for readability */
+        margin: 10px auto;
+        text-align: justify;
+    }
+}
+
+/* Extra Small Devices (e.g., mobile) */
+@media (max-width: 767px) {
+    .brand-card {
+        max-width: 95%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .brand-card h2 {
+        font-size: 20px;
+    }
+
+    .brand-card p {
+        font-size: 14px;
+    }
+}
