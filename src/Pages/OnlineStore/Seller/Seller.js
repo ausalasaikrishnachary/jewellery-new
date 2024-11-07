@@ -4,11 +4,17 @@ import pic2 from './Images/g-e.webp';
 import pic3 from './Images/g-b.png';
 import pic4 from './Images/g-r.jpeg';
 import pic5 from './Images/g-p.jpeg';
+import pic6 from './Images/feat-image.jpg';
+
 
 
 import './Seller.css'; // Import a separate CSS file for better styling
 
 function Seller() {
+
+  const handleRegisterClick = () => {
+    window.location.href = 'https://seller-ecommerce-website.com/register'; // Replace with the actual URL of your registration page
+  };
   return (
     <div className="seller-container">
       <div className="seller-banner">
@@ -50,7 +56,28 @@ function Seller() {
       </div>
        {/* CTA Section */}
        <div className="cta-section">
-        <button className="cta-button">Register Now</button>
+        <p>If you have a jewellery business, you can sell your products through our website. For more details, contact us or register here to start selling:</p>
+        <button className="cta-button" onClick={handleRegisterClick}>
+          Register Here
+        </button>
+      </div>
+
+
+       {/* Features Section */}
+       <div className="features-section">
+        <div className="features-left">
+          <h2>Why Sell Your Jewellery With Us?</h2>
+          <ul className="features-list">
+            <li>🌟 High-quality, certified jewellery sourced from trusted suppliers</li>
+            <li>🔒 Secure payments and transactions to ensure peace of mind</li>
+            <li>🚚 Free shipping on all orders, directly to your customers</li>
+            <li>📈 Access to a vast customer base, increasing your sales opportunities</li>
+            <li>💎 Expert marketing support to help your products stand out</li>
+          </ul>
+        </div>
+        <div className="features-right">
+          <img src={pic6} alt="Jewellery Display" />
+        </div>
       </div>
     </div>
   );

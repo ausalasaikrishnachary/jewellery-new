@@ -130,33 +130,39 @@
         .product-card {
           width: 45%; /* Adjust width for tablets */
         }
-        .cta-button {
-                font-size: 16px;
-                padding: 10px 20px;
-              }
       }
       
       @media (max-width: 480px) {
         .product-card {
           width: 100%; /* Full width for mobile */
         }
-
-  .cta-button {
-        font-size: 14px;
-        padding: 8px 16px;
-      }
       }
 
 
 
       .cta-section {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         margin: 30px 0;
+        padding: 20px;
+        background: linear-gradient(135deg, #f3e6d7, #d4af37);
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        color: #333;
+        width: 90%;
+
+      }
+      
+      .cta-section p {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #333;
       }
       
       .cta-button {
-        background-color: #d4af37; /* Gold color */
+        background-color: #8c6d1f; /* Gold color */
         color: #fff;
         padding: 12px 24px;
         border: none;
@@ -170,6 +176,135 @@
       .cta-button:hover {
         background-color: #b58b2f; /* Slightly darker gold for hover */
         transform: translateY(-3px);
+      }
+      
+      @media (max-width: 768px) {
+        .cta-section p {
+          font-size: 16px;
+        }
+      
+        .cta-button {
+          font-size: 16px;
+          padding: 10px 20px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .cta-section p {
+          font-size: 14px;
+        }
+      
+        .cta-button {
+          font-size: 14px;
+          padding: 8px 16px;
+        }
+      }
+      
+
+
+
+
+
+
+
+
+      /* Features Section */
+.features-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(135deg, rgba(239, 238, 235, 0.8), rgba(243, 230, 215, 0.8)); /* Gold gradient */
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-top: 40px;
+        margin-bottom: 50px;
+width: 80%;
+        text-align: left;
+      }
+      
+      .features-left {
+        flex: 1;
+        padding-right: 20px; /* Adds space between the content and the image */
+      }
+      
+      .features-left h2 {
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      
+      .features-list {
+        list-style: none;
+        padding: 0;
+        font-size: 18px;
+        color: #333;
+      }
+      
+      .features-list li {
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+      }
+      
+      .features-list li svg {
+        margin-right: 10px;
+      }
+      
+      .features-list li:hover {
+        transform: translateY(-3px);
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .features-right {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .features-right img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+      
+      /* Responsive Design for Tablet and Mobile */
+      @media (max-width: 768px) {
+        .features-section {
+          flex-direction: column;
+          padding: 20px;
+        }
+      
+        .features-left h2 {
+          font-size: 24px;
+        }
+      
+        .features-list li {
+          font-size: 16px;
+        }
+      
+        .features-right img {
+          width: 80%;
+          max-width: 350px;
+          margin-top: 20px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .features-left h2 {
+          font-size: 20px;
+        }
+      
+        .features-list li {
+          font-size: 14px;
+        }
+      
+        .features-right img {
+          width: 90%;
+          max-width: 300px;
+        }
       }
       
       
