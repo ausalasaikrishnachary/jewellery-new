@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 import './Testimonials.css'; 
 import JewelryImage from './Images/Test_img.jpg'; 
 import profile1 from './Images/profile1.jpg'; 
-import profile2 from './Images/profile2.jpg'; 
-import profile3 from './Images/profile3.jpg'; 
-import profile4 from './Images/profile4.jpg'; 
+import profile2 from './Images/profile2.jpeg'; 
+import profile3 from './Images/profile3.jpeg'; 
+import profile4 from './Images/profile4.jpeg'; 
 
 const Testimonials = () => {
   const sliderSettings = {

@@ -30,7 +30,12 @@
   .stores-card-image {
     flex: 1;
   }
-  
+  .Store-title{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
   .stores-card-image img {
     width: 100%;
     height: auto;

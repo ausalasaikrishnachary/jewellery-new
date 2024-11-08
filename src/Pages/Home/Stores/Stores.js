@@ -5,8 +5,10 @@ import stores from './Images/stores.jpg';
 const Stores = () => {
   return (
     <div className="stores-card">
+          <h2 className="Store-title">Connecting Online and Offline Experiences in Jewelry</h2>
       <div className="stores-card-container">
         {/* Left side content */}
+      
         <div className="stores-card-text">
           <p style={{ textAlign: 'justify' }}>
             The jewelry that bridges online and offline elements, you could focus on several key areas.
