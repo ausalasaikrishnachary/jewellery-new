@@ -44,14 +44,14 @@ function Seller() {
           </div>
           <div className="product-card">
             <img src={pic4} alt="Gold Ring" />
-            <h3>Gold Bracelet</h3>
-            <p>Stylish 18k gold bracelet that complements any outfit.</p>
-          </div>
+            <h3>Gold Ring</h3>
+            <p>Classic gold ring designed with elegance and timeless style.</p>
+            </div>
           <div className="product-card">
             <img src={pic5} alt="Gold Pendant" />
-            <h3>Gold Bracelet</h3>
-            <p>Stylish 18k gold bracelet that complements any outfit.</p>
-          </div>
+            <h3>Gold Pendant</h3>
+            <p>Charming gold pendant with a unique and captivating design.</p>
+            </div>
         </div>
       </div>
       {/* CTA Section */}
