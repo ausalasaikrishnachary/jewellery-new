@@ -5,6 +5,7 @@ import Brand from "./Brand/Brand";
 import Video from "./Video/Video";
  import ProductQuality from "./ProductQuality/ProductQuality";
 import Testimonials from "./Testimonials/Testimonials";
+import Stores from "./Stores/Stores";
 
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <Video />
       <ProductQuality />
       <Testimonials />
+      <Stores />
     </div>
   );
 }
