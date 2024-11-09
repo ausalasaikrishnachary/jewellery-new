@@ -28,12 +28,12 @@
       }
       
       .banner-text h1 {
-        font-size: 36px; /* Adjust font size for header */
+        font-size: 32px; /* Adjust font size for header */
         margin-bottom: 10px;
       }
       
       .banner-text p {
-        font-size: 18px; /* Adjust font size for paragraph */
+        font-size: 17px; /* Adjust font size for paragraph */
       }
       
       /* Media query for tablets (e.g., iPad) */
@@ -84,7 +84,7 @@
       .gold-products-section h2 {
         text-align: center;
         margin-bottom: 20px;
-        font-size: 28px;
+        font-size: 32px;
       }
       
       .cards-container {
@@ -117,7 +117,7 @@
       
       .product-card p {
         padding: 0 10px 10px;
-        font-size: 16px;
+        font-size: 17px;
         color: #555;
       }
       
@@ -156,9 +156,10 @@
       }
       
       .cta-section p {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 15px;
         color: #333;
+        font-weight: bold;
       }
       
       .cta-button {
@@ -167,7 +168,7 @@
         padding: 12px 24px;
         border: none;
         border-radius: 8px;
-        font-size: 18px;
+        font-size: 17px;
         cursor: pointer;
         transition: background-color 0.3s, transform 0.3s;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -229,7 +230,7 @@ width: 80%;
       }
       
       .features-left h2 {
-        font-size: 28px;
+        font-size: 32px;
         color: #333;
         margin-bottom: 20px;
       }
@@ -237,8 +238,9 @@ width: 80%;
       .features-list {
         list-style: none;
         padding: 0;
-        font-size: 18px;
-        color: #333;
+        font-size: 17px;
+        /* color: #333; */
+        color: #555;
       }
       
       .features-list li {
@@ -329,7 +331,7 @@ width: 80%;
         font-size: 32px;
         margin-bottom: 30px;
         color: #333;
-        font-weight: 600;
+        /* font-weight: 600; */
       }
       
       .benefits-content {
@@ -354,8 +356,8 @@ width: 80%;
       }
       
       .benefit-item p {
-        font-size: 16px;
-        color: #555;
+        font-size: 17px;
+        color: #333;
       }
       
       /* Testimonials Section */
@@ -364,7 +366,7 @@ width: 80%;
       }
       
       .testimonials h3 {
-        font-size: 28px;
+        font-size: 32px;
         color: #333;
         margin-bottom: 20px;
       }
@@ -386,8 +388,8 @@ width: 80%;
       
       .testimonial-card p {
         font-style: italic;
-        font-size: 16px;
-        color: #555;
+        font-size: 17px;
+        color: #333;
         margin-bottom: 10px;
       }
       
@@ -404,7 +406,7 @@ width: 80%;
       }
       
       .statistics h3 {
-        font-size: 28px;
+        font-size: 32px;
         color: #333;
         margin-bottom: 20px;
       }
@@ -431,8 +433,8 @@ width: 80%;
       }
       
       .stats-card p {
-        font-size: 16px;
-        color: #555;
+        font-size: 17px;
+        color: #333;
       }
       
       /* Graphics Section */
