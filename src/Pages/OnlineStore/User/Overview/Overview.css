@@ -1,7 +1,7 @@
 /* Ensure the image fills the width of the viewport */
 .img1 {
     width: 100%;
-    height: auto;
+    height: 400px;
   }
   
 /* Main container for padding on both sides */
