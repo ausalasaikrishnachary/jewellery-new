@@ -4,7 +4,7 @@ import './Schemes.css';
 function Schemes() {
   return (
     <div>
-      <img className='img2' src="https://zeevector.com/wp-content/uploads/Jewellery-Banner-Design-Background@zeevector.png" alt="Banner" />
+      <img className='img2' src="https://cm-cdn.creditmantri.com/community/article/5-key-factors-that-determine-gold-loan-interest-rates.jpg" alt="Banner" />
     <div className="schemes-container">
       <h2 className="schemes-title">Jewellery Purchase Plan - Divine</h2>
       <p className="schemes-subtitle">Minimum Rs.1000/- and Above</p>
