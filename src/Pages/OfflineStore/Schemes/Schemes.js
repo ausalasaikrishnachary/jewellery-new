@@ -3,6 +3,8 @@ import './Schemes.css';
 
 function Schemes() {
   return (
+    <div>
+      <img className='img2' src="https://cm-cdn.creditmantri.com/community/article/5-key-factors-that-determine-gold-loan-interest-rates.jpg" alt="Banner" />
     <div className="schemes-container">
       <h2 className="schemes-title">Jewellery Purchase Plan - Divine</h2>
       <p className="schemes-subtitle">Minimum Rs.1000/- and Above</p>
@@ -49,6 +51,7 @@ function Schemes() {
         <li>Payments can be made through cash, UPI, RTGS.</li>
         <li>All disputes are subject to Bangalore jurisdiction only.</li>
       </ul>
+    </div>
     </div>
   );
 }

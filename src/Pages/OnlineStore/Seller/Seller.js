@@ -13,7 +13,7 @@ import './Seller.css'; // Import a separate CSS file for better styling
 function Seller() {
 
   const handleRegisterClick = () => {
-    window.location.href = 'https://seller-ecommerce-website.com/register'; // Replace with the actual URL of your registration page
+    window.location.href = 'https://seller.sadashrijewelkart.com/register/user'; // Replace with the actual URL of your registration page
   };
   return (
     <div className="seller-container">

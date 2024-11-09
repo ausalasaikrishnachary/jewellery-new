@@ -44,8 +44,9 @@ function Overview() {
     </div>
   </div>
   {/* Update the button to be a Link */}
-  <Link to="/about">
-    <button className="introduction-about-btn">More About Us</button>
+  <Link to="https://stage.sadashrijewelkart.com/signup">
+    <button className="introduction-about-btn">Register Here
+    </button>
   </Link>
 </div>
 
