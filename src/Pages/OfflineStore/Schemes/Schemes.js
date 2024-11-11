@@ -4,7 +4,7 @@ import './Schemes.css';
 function Schemes() {
   return (
     <div>
-      <img className='img2' src="https://cm-cdn.creditmantri.com/community/article/5-key-factors-that-determine-gold-loan-interest-rates.jpg" alt="Banner" />
+      <img className='img2' src="https://princejewellery.com/staging/prince/public/storage/slider_images/Default/MkOsXtMfGwdL5bPYXKAX0XZZHdgKy6V8mAb1yVUy.jpg" alt="Banner" />
     <div className="schemes-container">
       <h2 className="schemes-title">Jewellery Purchase Plan - Divine</h2>
       <p className="schemes-subtitle">Minimum Rs.1000/- and Above</p>
