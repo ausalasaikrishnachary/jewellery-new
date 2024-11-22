@@ -1,0 +1,128 @@
+/* Brands Page Styling */
+.brands-page {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f8f8;
+        padding: 4rem 2rem;
+        color: #333;
+      }
+      
+      /* Container for content */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        text-align: center;
+      }
+      
+      /* Title of the page */
+      .page-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #2c3e50;
+        margin-bottom: 3rem;
+      }
+      
+      /* Each Brand Section */
+      .brand-section {
+        background-color: #fff;
+        padding: 3rem;
+        margin-bottom: 3rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      /* Section Title and Description */
+      .brand-title {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #2980b9; /* Blue color */
+        margin-bottom: 1.5rem;
+      }
+      
+      .brand-description {
+        font-size: 1.1rem;
+        color: #7f8c8d;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+      
+      /* Detail Boxes */
+      .brand-details {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+      
+      .detail-box {
+        background-color: #ecf0f1;
+        border-radius: 10px;
+        padding: 2rem;
+        width: 45%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        text-align: left;
+      }
+      
+      .detail-box h4 {
+        font-size: 1.3rem;
+        color: #2980b9;
+        margin-bottom: 1rem;
+      }
+      
+      .detail-box p,
+      .detail-box ul {
+        font-size: 1rem;
+        color: #7f8c8d;
+        line-height: 1.5;
+      }
+      
+      .detail-box ul {
+        padding-left: 1.5rem;
+      }
+      
+      .detail-icon {
+        font-size: 2rem;
+        color: #2980b9;
+        margin-right: 1rem;
+      }
+      
+      /* Mobile View */
+      @media (max-width: 768px) {
+        .page-title {
+          font-size: 2rem;
+        }
+      
+        .brand-title {
+          font-size: 1.8rem;
+        }
+      
+        .brand-description {
+          font-size: 1rem;
+        }
+      
+        .brand-details {
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+      
+        .detail-box {
+          width: 100%;
+        }
+      }
+      
+      /* Tablet View */
+      @media (max-width: 1024px) {
+        .page-title {
+          font-size: 2.3rem;
+        }
+      
+        .brand-details {
+          flex-direction: row;
+          gap: 1.5rem;
+        }
+      
+        .detail-box {
+          width: 48%;
+        }
+      }
+      

@@ -62,7 +62,9 @@ function Navbar() {
             </div>
           )}
         </div>
-
+        <Link to="/AboutUs">About Us</Link>
+        <Link to="/Enterprise">Enterprise</Link>
+        <Link to="/Brands">Brands</Link>
         <Link to="/contactUs">Contact Us</Link>
       </nav>
     </header>

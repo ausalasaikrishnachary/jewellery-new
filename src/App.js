@@ -13,6 +13,10 @@ import Contact from "./Pages/Contact/Contact";
 // import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
+import AboutUs from "./Pages/Aboutus/AboutUs";
+import Brands from "./Pages/Brands/Brands";
+import Enterprise from "./Pages/Enterprise/Enterprise";
+
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
         <Route path="/seller" exact element={<Seller />} />
         <Route path="/user" exact element={<User />} />
         <Route path="/contactUs" exact element={<Contact/>} />
+        <Route path="/AboutUs" exact element={<AboutUs/>} />
+        <Route path="/Brands" exact element={<Brands/>} />
+        <Route path="/Enterprise" exact element={<Enterprise/>} />
+
       </Routes>
       <Footer />
     </Router>
