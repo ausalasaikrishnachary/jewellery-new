@@ -1,165 +1,180 @@
-/* .about-us {
-        padding: 2rem;
-        font-family: 'Arial, sans-serif';
-        color: #444; */
-      
-        .purpose-section {
-          background: linear-gradient(145deg, #f9f9f9, #fff);
-          border: 1px solid #ddd;
-          border-radius: 8px;
-          padding: 2rem;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-      
-          .section-title {
-            font-size: 2rem;
-            color: #b76e79;
-            text-align: center;
-            margin-bottom: 1rem;
-          }
-      
-          .section-subtitle {
-            font-size: 2.5rem;
-            color: #a36e29;
-            text-align: center;
-            margin-bottom: 1.5rem;
-          }
-      
-          .section-introduction {
-            font-size: 1rem;
-            line-height: 1.8;
-            text-align: justify;
-            color: #555;
-            margin-bottom: 2rem;
-          }
-      
-          .infographic-timeline {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-          }
-      
-            .timeline-item {
-              display: flex;
-              align-items: flex-start;
-              gap: 1rem;
-              padding: 1rem;
-              border-left: 4px solid #b76e79;
-              background: #fafafa;
-              border-radius: 4px;
-              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            }
-      
-              .year {
-                font-size: 1.2rem;
-                font-weight: bold;
-                color: #b76e79;
-                min-width: 60px;
-              }
-      
-              p {
-                font-size: 0.95rem;
-                color: #666;
-              }
-            
-          
-        
-      
-        @media (max-width: 768px) {
-          .purpose-section {
-            padding: 1.5rem;
-          }
-      
-            .section-title {
-              font-size: 1.8rem;
-            }
-      
-            .section-subtitle {
-              font-size: 1.3rem;
-            }
-      
-            .section-introduction {
-              font-size: 0.95rem;
-            }
-      
-            .infographic-timeline {
-              .timeline-item {
-                flex-direction: column;
-                gap: 0.5rem;
-              }
-      
-                .year {
-                  font-size: 1rem;
-                }
-      
-                p {
-                  font-size: 0.9rem;
-                }
-              }
-            }
-          
-        
-      
-        @media (max-width: 480px) {
-          .purpose-section {
-            padding: 1rem;
-          }
-            .section-title {
-              font-size: 1.5rem;
-            }
-      
-            .section-subtitle {
-              font-size: 1.2rem;
-            }
-      
-            .section-introduction {
-              font-size: 0.9rem;
-            }
-      
-            .infographic-timeline {
-              .timeline-item {
-                gap: 0.5rem;
-      
-                .year {
-                  font-size: 0.9rem;
-                }
-      
-                p {
-                  font-size: 0.85rem;
-                }
-              }
-            }
-          }
-        
-      
-      
+/* General Styles for Banner Section */
+.sec-1-banner-section {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  background-image: url(
+  './Images/aboutusbannerimg.jpg'
+  ); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-1-banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-1-banner-heading {
+  font-size: 2.5rem; /* Adjust size for desktop */
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem; /* Add padding for better readability */
+  margin-left: -400px;
+}
+
+/* Responsive Styles for Tablets (iPads) */
+@media (max-width: 768px) {
+  .sec-1-banner-section {
+    height: 250px; /* Adjust height for tablets */
+  }
+
+  .sec-1-banner-heading {
+    font-size: 2rem; /* Adjust font size */
+  }
+}
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 480px) {
+  .sec-1-banner-section {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+
+  .sec-1-banner-heading {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+}
 
 
-      .wisdom-section {
-        background: linear-gradient(145deg, #fff, #f7f7f7);
-        border: 1px solid #ddd;
+
+/* Styling for the Legacy Section */
+.legacy-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: linear-gradient(145deg, #f9f9f9, #ffffff);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 1rem;
+}
+
+/* Left Side: Content */
+.legacy-content {
+  flex: 1;
+  max-width: 50%;
+  padding: 1rem;
+}
+
+.legacy-title {
+  font-size: 2.5rem;
+  color: #a36e29;;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.legacy-introduction {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-weight: 500;
+}
+
+/* Right Side: Infographic Image */
+.legacy-infographic {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infographic-image {
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styling for Tablets */
+@media (max-width: 768px) {
+  .legacy-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .legacy-content, .legacy-infographic {
+    max-width: 100%;
+  }
+
+  .legacy-title {
+    font-size: 1.8rem;
+  }
+
+  .legacy-introduction {
+    font-size: 0.95rem;
+  }
+}
+
+/* Responsive Styling for Mobile Devices */
+@media (max-width: 480px) {
+  .legacy-section {
+    padding: 1.5rem;
+  }
+
+  .legacy-title {
+    font-size: 1.5rem;
+  }
+
+  .legacy-introduction {
+    font-size: 0.9rem;
+  }
+
+  .infographic-image {
+    width: 90%;
+  }
+}
+
+
+
+      .sec-2-wisdom-section {
+        /* background: linear-gradient(145deg, #fff, #f7f7f7); */
+        /* border: 1px solid #ddd; */
         border-radius: 8px;
-        padding: 2rem;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin-bottom: 2rem;
+        /* padding: 2rem; */
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
       }
       
-        .section-title {
-          font-size: 2rem;
-          color: #b76e79;
+        .sec-2-section-title {
+          font-size: 2.5rem;
+            color: #a36e29;
           text-align: center;
           margin-bottom: 1rem;
         }
       
-        .section-subtitle {
+        .sec-2-section-subtitle {
           font-size: 1.4rem;
           color: #444;
           text-align: center;
           margin-bottom: 1.5rem;
         }
       
-        .wisdom-quote {
-          font-size: 1.2rem;
+        .sec-2-wisdom-quote {
+          font-size: 30px;
           font-style: italic;
           color: #b76e79;
           text-align: center;
@@ -167,79 +182,160 @@
           padding: 0 1rem;
         }
       
-        .wisdom-description {
-          font-size: 1rem;
-          line-height: 1.8;
-          text-align: justify;
-          color: #555;
-          margin: 0 auto;
-          max-width: 800px;
-        }
+      
       
         @media (max-width: 768px) {
       
-          .section-title {
+          .sec-2-section-title {
             font-size: 1.8rem;
           }
       
-          .section-subtitle {
+          .sec-2-section-subtitle {
             font-size: 1.3rem;
           }
       
-          .wisdom-quote {
+          .sec-2-wisdom-quote {
             font-size: 1.1rem;
             padding: 0 0.5rem;
           }
       
-          .wisdom-description {
-            font-size: 0.95rem;
-          }
+        
         }
       
         @media (max-width: 480px){
       
-          .section-title {
+          .sec-2-section-title {
             font-size: 1.6rem;
           }
       
-          .section-subtitle {
+          .sec-2-section-subtitle {
             font-size: 1.2rem;
           }
       
-          .wisdom-quote {
+          .sec-2-wisdom-quote {
             font-size: 1rem;
           }
       
-          .wisdom-description {
-            font-size: 0.9rem;
-          }
+          
         }
+
+
+
+
+        /* General Styling */
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem; /* Space between text and image */
+  padding: 1rem;
+  width: 100%;
+  max-width: 1200px; /* Optional: Limit width for larger screens */
+  margin: 0 auto; /* Center the layout */
+}
+
+.text-section {
+  flex: 1;
+  max-width: 50%;
+  padding: 1rem;
+}
+
+.sec-2-wisdom-points {
+  list-style-type: disc; /* Use bullet points */
+  margin: 0;
+  padding: 0 1.5rem;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  font-weight: 500;
+}
+
+.image-section {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+}
+
+.image-section img {
+  width: 100%; /* Scale image to fit */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Responsive Styles for Tablets (iPads) */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column; /* Stack text and image vertically */
+    text-align: center; /* Center-align content */
+  }
+
+  .text-section {
+    max-width: 100%; /* Full width for text */
+    padding: 1rem 0;
+  }
+
+  .image-section {
+    max-width: 80%; /* Slightly reduce image width */
+    margin: 0 auto;
+  }
+
+  .image-section img {
+    width: 100%; /* Ensure full width */
+  }
+}
+
+/* Responsive Styles for Mobile (Phones) */
+@media (max-width: 480px) {
+  .content-wrapper {
+    padding: 0.5rem;
+  }
+
+  .text-section {
+    padding: 0.5rem 0;
+  }
+
+  .sec-2-wisdom-points {
+    font-size: 0.9rem; /* Slightly smaller text */
+    padding: 0 1rem; /* Adjust padding */
+  }
+
+  .image-section {
+    max-width: 100%;
+  }
+
+  .image-section img {
+    max-width: 90%; /* Slightly smaller for better fit */
+    margin: 0 auto;
+  }
+}
+
       
       
 
 
         /* Generational Wisdom Section */
-.generational-wisdom {
+.sec-3-generational-wisdom {
   background: linear-gradient(145deg, #fffaf0, #fdf6e4); /* Subtle gold theme */
   padding: 3rem 1.5rem;
   font-family: 'Poppins', sans-serif;
 }
 
-.generational-wisdom .container {
+.sec-3-generational-wisdom .sec-3-container {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
 
-.generational-wisdom .section-title {
-  font-size: 2.2rem;
-  color: #b2967d; /* Soft gold color */
+.sec-3-generational-wisdom .sec-3-section-title {
+  font-size: 2.5rem;
+  color:#a36e29; 
   margin-bottom: 1rem;
   font-weight: 700;
   text-transform: capitalize;
 }
 
-.generational-wisdom .section-description {
+.sec-3-generational-wisdom .sec-3-section-description {
   font-size: 1.2rem;
   color: #4a4a4a;
   line-height: 1.8;
@@ -247,7 +343,7 @@
   padding: 0 1rem;
 }
 
-.generational-wisdom .principles-list {
+.sec-3-generational-wisdom .sec-3-principles-list {
   display: flex;
   justify-content: space-around;
   gap: 2rem;
@@ -255,7 +351,7 @@
   margin-bottom: 2rem;
 }
 
-.generational-wisdom .principle {
+.sec-3-generational-wisdom .sec-3-principle {
   background: #fff;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   border: 2px solid #b2967d; /* Gold border */
@@ -267,19 +363,19 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.generational-wisdom .principle:hover {
+.sec-3-generational-wisdom .sec-3-principle:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.generational-wisdom .principle .icon {
+.sec-3-generational-wisdom .sec-3-principle .sec-3-icon {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   display: block;
   color: #b2967d;
 }
 
-.generational-wisdom .principle h3 {
+.sec-3-generational-wisdom .sec-3-principle h3 {
   font-size: 1.2rem;
   color: #333;
   font-weight: 600;
@@ -287,7 +383,7 @@
   margin: 0.5rem 0;
 }
 
-.generational-wisdom .visual {
+.sec-3-generational-wisdom .sec-3-visual {
   background: #f9f3e7;
   border: 2px dashed #b2967d; /* Gold dashed border */
   border-radius: 8px;
@@ -299,27 +395,27 @@
 
 /* Tablet View */
 @media (max-width: 768px) {
-  .generational-wisdom .principles-list {
+  .sec-3-generational-wisdom .sec-3-principles-list {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .generational-wisdom .principle {
+  .sec-3-generational-wisdom .sec-3-principle {
     max-width: 100%;
   }
 }
 
 /* Mobile View */
 @media (max-width: 480px) {
-  .generational-wisdom .section-title {
+  .sec-3-generational-wisdom .sec-3-section-title {
     font-size: 1.8rem;
   }
 
-  .generational-wisdom .section-description {
+  .sec-3-generational-wisdom .sec-3-section-description {
     font-size: 1rem;
   }
 
-  .generational-wisdom .visual {
+  .sec-3-generational-wisdom .sec-3-visual {
     font-size: 0.9rem;
   }
 }
@@ -329,39 +425,48 @@
 
 
 /* Vision Section */
-.vision-section {
-  background: linear-gradient(145deg, #f9f3e7, #fffaf0); /* Subtle gold theme */
-  padding: 3rem 1.5rem;
+.sec-4-vision-section {
+  /* background: linear-gradient(145deg, #f9f3e7, #fffaf0);  */
+  /* background-image: url('./Images/visionimg.jpg'); */
+  padding: 15px 1.5rem;
   font-family: 'Poppins', sans-serif;
 }
 
-.vision-section .container {
+.sec-4-vision-section .sec-4-container {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
 }
 
-.vision-title {
+.sec-4-vision-title {
   font-size: 2.4rem;
-  color: #b2967d; /* Luxurious gold */
+  color: #a36e29
+  ; /* Luxurious gold */
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.vision-subtitle {
+.sec-4-vision-subtitle {
   font-size: 1.4rem;
   color: #4a4a4a;
   margin-bottom: 2rem;
 }
 
-.vision-content {
+.sec-4-vision-content {
   font-size: 1.2rem;
   color: #333;
   line-height: 1.8;
   margin-bottom: 2rem;
 }
 
-.vision-visual {
+
+.strongtext{
+  font-style: italic;
+  font-size: 30px;
+  color: #a36e29
+
+}
+.sec-4-vision-visual {
   /* background: url('/path/to/vision-image.jpg') center/cover no-repeat; */
   height: 200px;
   border: 2px solid #74573f; /* Gold border */
@@ -369,29 +474,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #e78f14d0;
+  color: #131210d0;
   font-size: 20px;
   font-style: italic;
   border-radius: 12px;
-  font-weight: bold;
 }
 
-.pillars-title {
+.sec-4-pillars-title {
   font-size: 2rem;
-  color: #b2967d;
+  color: #a36e29;
   font-weight: 600;
   margin-bottom: 1.5rem;
   text-transform: capitalize;
 }
 
-.pillars {
+.sec-4-pillars {
   display: flex;
   justify-content: space-around;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
 
-.pillar {
+.sec-4-pillar {
   background: #fff;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   border: 1px solid #b2967d;
@@ -403,55 +507,64 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.pillar:hover {
+.sec-4-pillar:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.pillar h4 {
-  font-size: 1.3rem;
-  color: #b2967d;
+.sec-4-pillar h4 {
+  font-size: 23px;
+  color: #a36e29;
   margin-bottom: 0.8rem;
   font-weight: 700;
 }
 
-.pillar p {
-  font-size: 1rem;
+.sec-4-pillar p {
+  font-size: 17px;
   color: #555;
   line-height: 1.6;
 }
 
+
+.pillar-image {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem; /* Space between image and text */
+}
+
 /* Tablet View */
 @media (max-width: 768px) {
-  .pillars {
+  .sec-4-pillars {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .pillar {
+  .sec-4-pillar {
     max-width: 100%;
   }
 }
 
 /* Mobile View */
 @media (max-width: 480px) {
-  .vision-title {
+  .sec-4-vision-title {
     font-size: 1.8rem;
   }
 
-  .vision-subtitle {
+  .sec-4-vision-subtitle {
     font-size: 1.2rem;
   }
 
-  .pillars-title {
+  .sec-4-pillars-title {
     font-size: 1.6rem;
   }
 
-  .vision-content {
+  .sec-4-vision-content {
     font-size: 1rem;
   }
 
-  .vision-visual {
+  .sec-4-vision-visual {
     height: 150px;
     font-size: 0.9rem;
   }
@@ -461,95 +574,99 @@
 
 
 
-.cta-section {
-  background-color: #f9f9f9;
+.sec-5-cta-section {
+  background-image: url('./Images/ctabann1.webp');
   border: 1px solid #ddd;
   border-radius: 8px;
   text-align: center;
   padding: 2rem;
   margin: 2rem auto;
-  max-width: 800px;
+  /* max-width: 800px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.cta-title {
+.sec-5-cta-title {
   font-size: 2rem;
-  color: #b76e79;
+  color: white;
   margin-bottom: 1rem;
 }
 
-.cta-subtitle {
+.sec-5-cta-subtitle {
   font-size: 1.4rem;
-  color: #444;
+  color: black;
   margin-bottom: 1.5rem;
+  font-weight: 600;
 }
 
-.cta-buttons {
+.sec-5-cta-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
 
-.cta-button {
-  background-color: #b76e79;
-  color: #fff;
+.sec-5-cta-button {
+  background-color: white;
+  color: #d2a66d;
   border: none;
   border-radius: 5px;
   padding: 0.75rem 1.5rem;
-  font-size: 1rem;
+  font-size: 20px;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.cta-button:hover {
-  background-color: #a05462;
+.sec-5-cta-button:hover {
+  background-color: #d2a66d;
+  color:white;
   transform: scale(1.05);
+  border: 1px solid black;
 }
 
-.cta-button:focus {
+.sec-5-cta-button:focus {
   outline: none;
   box-shadow: 0 0 5px rgba(183, 110, 121, 0.5);
 }
 
 /* Responsive Styling */
 @media (max-width: 768px) { /* Tablet View */
-  .cta-section {
+  .sec-5-cta-section {
     padding: 1.5rem;
   }
 
-  .cta-title {
+  .sec-5-cta-title {
     font-size: 1.8rem;
   }
 
-  .cta-subtitle {
+  .sec-5-cta-subtitle {
     font-size: 1.3rem;
   }
 
-  .cta-button {
+  .sec-5-cta-button {
     font-size: 0.95rem;
     padding: 0.6rem 1.2rem;
   }
 }
 
 @media (max-width: 480px) { /* Mobile View */
-  .cta-section {
+  .sec-5-cta-section {
     padding: 1rem;
   }
 
-  .cta-title {
+  .sec-5-cta-title {
     font-size: 1.6rem;
   }
 
-  .cta-subtitle {
+  .sec-5-cta-subtitle {
     font-size: 1.2rem;
   }
 
-  .cta-buttons {
+  .sec-5-cta-buttons {
     flex-direction: column;
   }
 
-  .cta-button {
+  .sec-5-cta-button {
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
     width: 100%; /* Buttons stack on mobile */
