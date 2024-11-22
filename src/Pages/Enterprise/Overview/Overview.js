@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 function Overview() {
   return (
     <div>
-      <img className='img1' src="https://www.kalyanjewellers.net/images/banners/gold_banner.jpg" alt="Banner" />
       <div className="introduction-container">
       <div className="introduction-section">
         {/* Left Section: Images and Experience */}
@@ -19,13 +18,13 @@ function Overview() {
 
         {/* Right Section: Content */}
         <div className="introduction-content">
-  <h4>ABOUT US</h4>
-  <h1>Crafting Timeless Beauty through Custom Jewelry</h1>
+  {/* <h4>ABOUT US</h4> */}
+  <h1>Running the Company with Ethics, Integrity, and Responsibility</h1>
   <p>
-    At our atelier, we specialize in crafting timeless beauty through custom jewelry designs that reflect elegance and personal style.
+  At Sadashri Ventures, we are committed to running our business with the highest standards of ethics and integrity. Our relationship with society is built on trust, transparency, and accountability. We strive to create an environment where innovation thrives but always in a way that honors our roots and uplifts the greater good.
   </p>
   <p>
-    Our dedicated artisans blend traditional craftsmanship with modern techniques, creating pieces that embody luxury and uniqueness for every individual.
+  [Visual: Icon Box featuring icons like a handshake (ethics), a heart (integrity), and a globe (responsibility).]
   </p>
   <div className="introduction-features">
     <div className="introduction-feature-item">
