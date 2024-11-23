@@ -82,6 +82,23 @@ const ShopByCategory = () => {
           </div>
         ))}
       </div>
+
+
+      <div className="store-experience-container">
+      <div className="br-detail-box">
+        <FaStore className="br-detail-icon" />
+        <h4>Store Experience</h4>
+        <p>
+          A luxurious ambiance with personalized service and exceptional customer care—an experience tailored just for you.
+        </p>
+      </div>
+      <div className="br-detail-image">
+        <img
+          src="https://via.placeholder.com/400" // Replace with your image URL
+          alt="Store Experience"
+        />
+      </div>
+    </div>
     </div>
   );
 };

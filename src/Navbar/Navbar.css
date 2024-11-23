@@ -6,8 +6,11 @@
     padding: 1rem 2rem;
     background: linear-gradient(to right, rgba(244, 244, 244, 1) 0%, rgb(255 246 231) 28%, rgb(255 246 231) 100%);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
+    position: fixed;
     height: 50px;
+    z-index: 1;
+    width: 100%;
+    
 }
   
 /* Logo styles */
