@@ -16,6 +16,8 @@ import Navbar from "./Navbar/Navbar";
 import AboutUs from "./Pages/Aboutus/AboutUs";
 import Brands from "./Pages/Brands/Brands";
 import Enterprise from "./Pages/Enterprise/Enterprise";
+import Jewels from "./Pages/Brands/Jewels";
+import Jewelkart from "./Pages/Brands/Jewelkart";
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Route path="/contactUs" exact element={<Contact/>} />
         <Route path="/AboutUs" exact element={<AboutUs/>} />
         <Route path="/Brands" exact element={<Brands/>} />
+        <Route path="/sadashri-jewels" exact element={<Jewels/>} />
+        <Route path="/sadashri-jewelkart" exact element={<Jewelkart/>} />
         <Route path="/Enterprise" exact element={<Enterprise/>} />
 
       </Routes>

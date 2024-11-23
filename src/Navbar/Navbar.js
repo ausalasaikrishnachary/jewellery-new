@@ -7,6 +7,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [offlineDropdownOpen, setOfflineDropdownOpen] = useState(false);
   const [onlineDropdownOpen, setOnlineDropdownOpen] = useState(false);
+  const [brandsDropdownOpen, setBrandsDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -20,13 +21,20 @@ function Navbar() {
     setOnlineDropdownOpen(!onlineDropdownOpen);
   };
 
+  const toggleBrandsDropdown = () => {
+    setBrandsDropdownOpen(!brandsDropdownOpen);
+  };
+
   return (
     <header className="navbar-header">
       <div className="navbar-logo">
         <img className="navbar-logo-img" src={mainlogo} alt="Jewellery Logo" />
       </div>
-      
-      <div className={`navbar-hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+
+      <div
+        className={`navbar-hamburger ${isOpen ? 'open' : ''}`}
+        onClick={toggleMenu}
+      >
         <div className="navbar-bar"></div>
         <div className="navbar-bar"></div>
         <div className="navbar-bar"></div>
@@ -34,9 +42,8 @@ function Navbar() {
 
       <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <Link to="/">Home</Link>
-        {/* <Link to="/about">About Us</Link> */}
-        
-        <div
+
+        {/* <div
           className="navbar-dropdown"
           onMouseEnter={toggleOfflineDropdown}
           onMouseLeave={toggleOfflineDropdown}
@@ -47,9 +54,9 @@ function Navbar() {
               <Link to="/schemes">Schemes</Link>
             </div>
           )}
-        </div>
+        </div> */}
 
-        <div
+        {/* <div
           className="navbar-dropdown"
           onMouseEnter={toggleOnlineDropdown}
           onMouseLeave={toggleOnlineDropdown}
@@ -61,10 +68,25 @@ function Navbar() {
               <Link to="/user">User</Link>
             </div>
           )}
-        </div>
-        <Link to="/AboutUs">About Us</Link>
+        </div> */}
+
         <Link to="/Enterprise">Enterprise</Link>
-        <Link to="/Brands">Brands</Link>
+        
+        <div
+          className="navbar-dropdown"
+          onMouseEnter={toggleBrandsDropdown}
+          onMouseLeave={toggleBrandsDropdown}
+        >
+          <span>Brands</span>
+          {brandsDropdownOpen && (
+            <div className="navbar-dropdown-content">
+              <Link to="/sadashri-jewels">Jewels(Offline)</Link>
+              <Link to="/sadashri-jewelkart">Jewelkart(Online)</Link>
+            </div>
+          )}
+        </div>
+
+        <Link to="/AboutUs">About Us</Link>
         <Link to="/contactUs">Contact Us</Link>
       </nav>
     </header>
@@ -72,4 +94,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
