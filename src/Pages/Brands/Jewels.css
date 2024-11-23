@@ -1,0 +1,106 @@
+.br-brand-title {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #a36e29;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+
+      .br-brand-description {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+
+      
+      .strongoffline{
+        font-style: italic;
+        font-size: 30px;
+        color: #a36e29;
+      }
+
+
+
+      .br-detail-icon {
+        font-size: 2rem;
+        color: #a36e29;
+        margin-right: 1rem;
+        justify-content: center;
+
+      }
+
+
+      .div-icon{
+        text-align: center;
+      }
+
+      .div-icon h2{
+        font-size: 2rem;
+        color: #a36e29;
+      }
+
+
+
+
+
+      .storebro-experience-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+      }
+      
+      .bro-detail-box {
+        flex: 1;
+        max-width: 50%;
+        text-align: left;
+      }
+      
+      .bro-detail-icon {
+        font-size: 2rem;
+        color: #a36e29;
+        margin-bottom: 10px;
+      }
+      
+      .bro-detail-box h4 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        color: #a36e29;
+      }
+      
+      .bro-detail-box p {
+        font-size: 1rem;
+        color: #555;
+      }
+      
+      .bro-detail-image {
+        flex: 1;
+        max-width: 50%;
+      }
+      
+      .bro-detail-image img {
+        width: 80%;
+        height: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        .storebro-experience-section {
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .bro-detail-box, .bro-detail-image {
+          max-width: 100%;
+        }
+      }
+      
