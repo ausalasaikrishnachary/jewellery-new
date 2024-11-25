@@ -34,17 +34,22 @@
   text-align: center;
   padding: 0 1rem; /* Add padding for better readability */
   margin-left: -400px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 /* Responsive Styles for Tablets (iPads) */
 @media (max-width: 768px) {
   .sec-1-banner-section {
-    height: 250px; /* Adjust height for tablets */
+    height: 350px; /* Adjust height for tablets */
   }
-
   .sec-1-banner-heading {
     font-size: 2rem; /* Adjust font size */
+    color: #fff;
+    text-align: center;
+    padding: 0 1rem; /* Add padding for better readability */
+    margin-top: 150px;
+    margin-left: 0px;
+
   }
 }
 
@@ -55,7 +60,7 @@
   }
 
   .sec-1-banner-heading {
-    font-size: 1.5rem; /* Adjust font size */
+    font-size: 20px; /* Adjust font size */
   }
 }
 
@@ -132,6 +137,15 @@
   .legacy-introduction {
     font-size: 0.95rem;
   }
+
+.infographic-image {
+    width: 686px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+  
 }
 
 /* Responsive Styling for Mobile Devices */
@@ -149,7 +163,7 @@
   }
 
   .infographic-image {
-    width: 90%;
+    height: 220px;
   }
 }
 
@@ -232,7 +246,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem; /* Space between text and image */
-  padding: 1rem;
+  /* padding: 1rem; */
   width: 100%;
   max-width: 1200px; /* Optional: Limit width for larger screens */
   margin: 0 auto; /* Center the layout */
@@ -277,7 +291,7 @@
 
   .text-section {
     max-width: 100%; /* Full width for text */
-    padding: 1rem 0;
+    padding: 1rem;
   }
 
   .image-section {
@@ -286,7 +300,11 @@
   }
 
   .image-section img {
-    width: 100%; /* Ensure full width */
+
+    width: 686px;
+    height: 400px;
+    margin-left: -40px;
+    margin-bottom: 25px;
   }
 }
 
@@ -312,6 +330,7 @@
   .image-section img {
     max-width: 90%; /* Slightly smaller for better fit */
     margin: 0 auto;
+    height: 200px;
   }
 }
 
@@ -551,7 +570,8 @@
   }
 
   .sec-4-pillar {
-    max-width: 100%;
+    width: 100%;
+    margin-left: -16px;
   }
 }
 
