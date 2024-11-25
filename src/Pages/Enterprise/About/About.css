@@ -23,7 +23,7 @@
       }
       
       .enterprise-header p {
-        font-size: 1.2rem;
+        font-size: 18px;
         color: #34495e; /* Darker grey for the paragraph */
         line-height: 1.7;
         text-align: justify;
@@ -39,7 +39,7 @@
       }
       
       .enterprise-journey p {
-        font-size: 1.1rem;
+        font-size: 18px;
         color: #34495e; /* Dark grey text */
         line-height: 1.6;
         text-align: justify;
@@ -58,7 +58,7 @@
       .enterprise-principles ul {
         list-style: none;
         padding: 0;
-        font-size: 1.1rem;
+        font-size: 18px;
         color: #2c3e50;
         margin-top: 2rem;
         max-width: 800px;
@@ -164,7 +164,7 @@
       }
       
       .section-description {
-        font-size: 1.2rem;
+        font-size: 18px;
         color: #34495e; /* Darker grey */
         line-height: 1.6;
         margin-bottom: 3rem;
@@ -202,7 +202,7 @@
       }
       
       .ethics-box p {
-        font-size: 1rem;
+        font-size: 18px;
         color: #34495e;
         line-height: 1.5;
       }
@@ -223,7 +223,7 @@
       }
       
       .ethics-trust p {
-        font-size: 1.2rem;
+        font-size: 18px;
         color: #34495e;
         line-height: 1.7;
       }
@@ -314,7 +314,7 @@
       }
       
       .section-description {
-        font-size: 1.2rem;
+        font-size: 18px;
         color: #34495e; /* Darker grey */
         line-height: 1.6;
         margin-bottom: 3rem;
@@ -352,7 +352,7 @@
       }
       
       .venture-box p {
-        font-size: 1rem;
+        font-size: 18px;
         color: #34495e;
         line-height: 1.5;
       }
@@ -424,7 +424,7 @@
       }
       
       .section-description {
-        font-size: 1.2rem;
+        font-size: 18px;
         color: #34495e; /* Darker grey */
         line-height: 1.6;
         margin-bottom: 3rem;
@@ -462,7 +462,7 @@
       }
       
       .foundation-box p {
-        font-size: 1rem;
+        font-size: 18px;
         color: #34495e;
         line-height: 1.5;
       }
@@ -533,7 +533,7 @@
       }
       
       .section-description {
-        font-size: 1.2rem;
+        font-size: 18px;
         color: #34495e; /* Darker grey */
         line-height: 1.6;
         margin-bottom: 3rem;
@@ -571,7 +571,7 @@
       }
       
       .commitment-box p {
-        font-size: 1rem;
+        font-size: 18px;
         color: #34495e;
         line-height: 1.5;
       }

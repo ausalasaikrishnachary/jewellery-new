@@ -80,8 +80,8 @@ function Navbar() {
           <span>Brands</span>
           {brandsDropdownOpen && (
             <div className="navbar-dropdown-content">
-              <Link to="/sadashri-jewels">Jewels(Offline)</Link>
-              <Link to="/sadashri-jewelkart">Jewelkart(Online)</Link>
+              <Link to="/sadashri-jewels">Sadashri Jewels-Our Store</Link>
+              <Link to="/sadashri-jewelkart">Sadashri Jewelkart-Online Platform</Link>
             </div>
           )}
         </div>
