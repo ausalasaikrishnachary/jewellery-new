@@ -60,7 +60,7 @@
       .bro-detail-box {
         flex: 1;
         max-width: 50%;
-        text-align: left;
+        text-align: center;
       }
       
       .bro-detail-icon {
@@ -86,7 +86,7 @@
       }
       
       .bro-detail-image img {
-        width: 80%;
+        width: 100%;
         height: 300px;
         border-radius: 10px;
         object-fit: cover;
@@ -94,6 +94,17 @@
       
       /* Responsive Styles */
       @media (max-width: 768px) {
+
+
+        .br-brand-title {
+          font-size: 2.5rem;
+          font-weight: 600;
+          color: #a36e29;
+          margin-bottom: 1.5rem;
+          text-align: center;
+          margin-top: 80px;
+        }
+  
         .storebro-experience-section {
           flex-direction: column;
           text-align: center;
@@ -102,5 +113,27 @@
         .bro-detail-box, .bro-detail-image {
           max-width: 100%;
         }
+
+
+        .bro-detail-image img {
+          width: 690px;
+          height: 300px;
+          border-radius: 10px;
+          object-fit: cover;
+      }
       }
       
+
+
+
+      @media (max-width: 480px) {
+
+
+        .bro-detail-image img {
+          height: 300px;
+          border-radius: 10px;
+          object-fit: cover;
+          width: 100%;
+      }
+
+      }
