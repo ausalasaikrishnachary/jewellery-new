@@ -144,6 +144,21 @@
   
 /* Responsive styles for mobile and tablet (iPad) */
 @media (max-width: 768px) {
+
+
+  .navbar-header {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, rgba(244, 244, 244, 1) 0%, rgb(255 246 231) 28%, rgb(255 246 231) 100%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    height: 80px;
+    z-index: 1;
+    width: 91%;
+}
     .navbar-logo {
       left: 1rem;
       top: 1rem;
@@ -227,8 +242,9 @@
       padding: 1rem 2rem;
       background: linear-gradient(to right, rgba(244, 244, 244, 1) 0%, rgb(255 246 231) 28%, rgb(255 246 231) 100%);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      position: relative;
+      position: fixed;
       height: 55px;
+      width: 83%;
     }
   
     .navbar-links a, .navbar-buttons a {
