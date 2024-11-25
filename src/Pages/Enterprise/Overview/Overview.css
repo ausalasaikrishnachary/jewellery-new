@@ -79,6 +79,7 @@
 }
 
 .introduction-content p {
+    text-align: justify;
     font-size: 18px;
     color: #555;
     margin-bottom: 20px;
@@ -96,7 +97,7 @@
 .introduction-feature-item {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
     width: 48%; /* Take almost half the width to maintain side-by-side */
     box-sizing: border-box;
 }
@@ -186,6 +187,12 @@
 @media screen and (max-width: 576px) {
     .introduction-section {
         flex-direction: column;
+    }
+
+    .img1 {
+        width: 100%;
+        height: 176px;
+        margin-top: 0px;
     }
 
     .introduction-content {

@@ -33,6 +33,7 @@ body {
 }
 
 .main-section p {
+  text-align: justify;
   font-size: 18px;
   color: #2c3e50;
 }
