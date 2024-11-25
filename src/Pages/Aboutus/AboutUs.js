@@ -160,7 +160,10 @@ const AboutUs = () => {
             </div>
             <div className="sec-4-pillar">
               <img src={about4} alt="Ethical Leadership" className="pillar-image" />
-              <h4>A Commitment to Ethical Leadership</h4>
+              <h4>Ethical Leadership Commitment
+
+
+              </h4>
               <p>
                 We lead with transparency, integrity, and a deep sense of responsibility for our people, the environment, and society at large.
               </p>

@@ -35,11 +35,11 @@ const Footer = () => {
           <div className='footermainsection'>
             <div className="footer-section">
               <p style={{ color: 'black', fontSize: '20px' }} className="footer-heading">Quick Menu</p>
-             <p>  <a href="/" className="footer-link">Home</a></p>
-             <p><a href="/schemes" className="footer-link">Schemes</a></p>
-             <p><a href="/seller" className="footer-link">Seller</a></p>
-             <p><a href="/user" className="footer-link">User</a></p>
-             <p><a href="/contactUs" className="footer-link">Contact Us</a></p>
+              <p>  <a href="/" className="footer-link">Home</a></p>
+              <p><a href="/schemes" className="footer-link">Schemes</a></p>
+              <p><a href="/seller" className="footer-link">Seller</a></p>
+              <p><a href="/user" className="footer-link">User</a></p>
+              <p><a href="/contactUs" className="footer-link">Contact Us</a></p>
             </div>
             <div className="footer-section">
               <p style={{ color: 'black', fontSize: '20px' }} className="footer-heading">Contact Details</p>
@@ -54,9 +54,19 @@ const Footer = () => {
           </div>
         </div>
         <hr className="footer-divider" />
-        <p className="footer-copyright">
+        {/* <p className="footer-copyright">
           Copyright © 2024 SadāShri Ventures Private Limited. All rights reserved.
-        </p>
+        </p> */}
+
+        <section className="last-footer">
+          <p className="last-footer-copyright">
+            Copyright © 2024 SadāShri Ventures Private Limited. All rights reserved.
+          </p>
+          <p className="last-footer-design">
+            Designed by iiiQBets.
+          </p>
+        </section>
+
       </div>
     </footer>
   );

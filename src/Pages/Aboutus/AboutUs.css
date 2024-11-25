@@ -252,6 +252,7 @@
   line-height: 1.8;
   color: #555;
   font-weight: 500;
+  text-align: justify;
 }
 
 .image-section {
@@ -345,6 +346,7 @@
   line-height: 1.8;
   margin-bottom: 2rem;
   padding: 0 1rem;
+  text-align: justify;
 }
 
 .sec-3-generational-wisdom .sec-3-principles-list {
@@ -461,6 +463,7 @@
   color: #333;
   line-height: 1.8;
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 
@@ -495,7 +498,7 @@
 .sec-4-pillars {
   display: flex;
   justify-content: space-around;
-  gap: 1.5rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
@@ -504,9 +507,9 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   border: 1px solid #b2967d;
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
-  max-width: 350px;
+  width: 400px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -527,6 +530,8 @@
   font-size: 17px;
   color: #555;
   line-height: 1.6;
+  text-align: justify;
+
 }
 
 

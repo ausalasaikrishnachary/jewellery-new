@@ -113,7 +113,8 @@
       .footer-link,
       .footer-info {
         font-size: 0.9rem;
-        color: #666;
+        color:black;
+        font-weight: 500;
         margin: 5px 0;
         text-decoration: none;
       }
@@ -128,7 +129,8 @@
       .footer-container p {
         text-align: center;
         font-size: 0.9rem;
-        color: #666;
+        color:black;
+        font-weight: 500;
         margin-top: 10px;
         padding-bottom: 10px;
       }
@@ -172,6 +174,37 @@
         font-weight: 500;
       }
     
+
+
+      .last-footer {
+        display: flex;
+        flex-wrap: wrap; /* Allows wrapping for smaller screens */
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        text-align: center; /* Center-align text for smaller screens */
+      }
+      
+      .last-footer p {
+        margin: 5px 0; /* Adds spacing between elements */
+        font-size: 14px; /* Adjust font size */
+        color:black;
+        font-weight: 500;        flex: 1 1 auto; /* Ensures both items grow/shrink equally */
+        margin-left: -134px;
+      }
+      
+      /* Media Queries for Responsiveness */
+      @media (max-width: 768px) { /* Tablet and smaller */
+        .last-footer {
+          flex-direction: column; /* Stack items vertically */
+          justify-content: center; /* Center items */
+        }
+      
+        .last-footer p {
+          flex: none; /* Prevent items from stretching */
+        }
+      }
+      
     
       
       /* Responsive adjustments */
