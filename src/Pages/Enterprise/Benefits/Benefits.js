@@ -42,13 +42,13 @@ function Benefits() {
           <div className="portfolio-card">
             <h3>Strategic Partnerships:</h3>
             <p>
-              We collaborate with like-minded organizations to foster innovation, support community development, and expand our impact.
+            We collaborate with like-minded organizations to foster innovation, support community development, and expand our positive social and environmental impact across diverse regions and industries.
             </p>
           </div>
           <div className="portfolio-card">
             <h3>Brand Investments:</h3>
             <p>
-              We invest in businesses that share our commitment to innovation, sustainability, and societal growth.
+            We invest in businesses that share our commitment to innovation, sustainability, and societal growth, empowering them to drive meaningful change and create value for communities and stakeholders.
             </p>
           </div>
         </div>
