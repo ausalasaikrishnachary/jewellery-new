@@ -38,7 +38,7 @@ function Overview() {
       {/* <span role="img" aria-label="Checkmark">✅</span> */}
       <h3>Personalized Designs</h3>
       <p>
-        Our approach centers around personalized design, ensuring that each piece captures your individuality and becomes a cherished symbol of beauty.
+        Our approach centers around personalized design, ensuring that each captures your individuality becomes symbol of beauty.
       </p>
     </div>
   </div>
