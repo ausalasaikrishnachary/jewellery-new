@@ -36,9 +36,11 @@ const Footer = () => {
             <div className="footer-section">
               <p style={{ color: 'black', fontSize: '20px' }} className="footer-heading">Quick Menu</p>
               <p>  <a href="/" className="footer-link">Home</a></p>
-              <p><a href="/schemes" className="footer-link">Schemes</a></p>
-              <p><a href="/seller" className="footer-link">Seller</a></p>
-              <p><a href="/user" className="footer-link">User</a></p>
+              <p><a href="/Enterprise" className="footer-link">Enterprise</a></p>
+              <p><a href="/sadashri-jewels" className="footer-link">Sadashri Jewels-Our Store</a></p>
+              <p><a href="/sadashri-jewelkart" className="footer-link">Sadashri Jewelkart-Online Platform</a></p>
+              <p><a href="/AboutUs" className="footer-link">AboutUs</a></p>
+
               <p><a href="/contactUs" className="footer-link">Contact Us</a></p>
             </div>
             <div className="footer-section">
