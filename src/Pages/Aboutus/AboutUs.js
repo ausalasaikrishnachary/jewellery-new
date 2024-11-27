@@ -2,11 +2,11 @@ import React from 'react';
 import './AboutUs.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArchway, faPalette, faGlobe } from '@fortawesome/free-solid-svg-icons';
-import about1 from './Images/aboutimg-1.jpg'
-import about2 from './Images/aboutusimagelegacy.webp';
-import about3 from './Images/empoweimg.jpeg';
-import about4 from './Images/ethicimage.jpg';
-import about5 from './Images/impactimg.jpg';
+import about1 from './Images/wisdomofourelderss.png'
+import about2 from './Images/OURLEGACY.png';
+import about3 from './Images/PILLERSOFVISION1.png';
+import about4 from './Images/PILLERSOFVISION2.png';
+import about5 from './Images/PILLERSOFVISION3.png';
 import about6 from './Images/visionimg.jpg';
 
 
@@ -20,9 +20,9 @@ const AboutUs = () => {
 
 
       <div className="sec-1-banner-section">
-        <div className="sec-1-banner-overlay">
+        {/* <div className="sec-1-banner-overlay">
           <h1 className="sec-1-banner-heading">A Legacy of Vision, Wisdom, and Responsibility</h1>
-        </div>
+        </div> */}
       </div>
 
 
@@ -181,8 +181,8 @@ const AboutUs = () => {
       </section>
 
       <div className="sec-5-cta-section">
-        <h2 className="sec-5-cta-title">Inspired by our legacy and vision?</h2>
-        <p className="sec-5-cta-subtitle">Join us on our journey.</p>
+        {/* <h2 className="sec-5-cta-title">Inspired by our legacy and vision?</h2>
+        <p className="sec-5-cta-subtitle">Join us on our journey.</p> */}
         <div className="sec-5-cta-buttons">
           <button className="sec-5-cta-button">Explore Our Corporate Ventures</button>
           <button className="sec-5-cta-button">Learn About Our Brands</button>

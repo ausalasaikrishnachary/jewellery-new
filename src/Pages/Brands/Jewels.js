@@ -1,10 +1,10 @@
 import React from 'react'
 import './Jewels.css'
 import { FaGem, FaStore, FaLaptop } from 'react-icons/fa';  // Importing icons from react-icons
-import engring from './Images/eng-ring.jpeg'
-import Necklace from './Images/necklaceimg.webp'
-import CustomPiece from './Images/custompiece.jpg'
-import Specialcolimg from './Images/specialcollectionimg.jpg'
+import engring from './Images/keyofferings1.png'
+import Necklace from './Images/keyofferings2.png'
+import CustomPiece from './Images/keyofferings3.png'
+import Specialcolimg from './Images/keyofferings4.png'
 import storeimg from "./Images/storeimage.webp"
 import achimg from "./Images/achieveimage.jpg"
 import custimg from "./Images/custestimg.webp"

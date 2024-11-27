@@ -5,15 +5,16 @@
 .sec-1-banner-section {
   position: relative;
   width: 100%;
-  height: 400px; /* Adjust height as needed */
+  height: 535px; /* Adjust height as needed */
   background-image: url(
-  './Images/aboutusbannerimg.jpg'
+  './Images/websitebanner.png'
   ); /* Replace with your image URL */
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .sec-1-banner-overlay {
@@ -603,12 +604,13 @@
 
 
 .sec-5-cta-section {
-  background-image: url('./Images/ctabann1.webp');
+  background-image: url('./Images/websitebanner2.png');
   border: 1px solid #ddd;
   border-radius: 8px;
   text-align: center;
   padding: 2rem;
   margin: 2rem auto;
+  height: 300px;
   /* max-width: 800px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -631,6 +633,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  margin-top: 260px;
 }
 
 .sec-5-cta-button {
