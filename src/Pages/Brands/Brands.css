@@ -22,7 +22,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.5rem;
-  padding: 0 1rem;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .category-card {
