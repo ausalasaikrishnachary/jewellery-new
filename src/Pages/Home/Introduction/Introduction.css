@@ -12,12 +12,13 @@
   .introduction-left {
     flex: 1; /* Takes up 50% of the container */
     padding-right: 20px; /* Add space between image and content */
+    margin-left:85px;
   }
   
   .introduction-image {
     width: 103%;
     border-radius: 10px;
-    height: 466px;
+    height: 360px;
   }
   
   /* Style for the right side with the content */
@@ -27,9 +28,16 @@
   }
   
   .introduction-title {
-    font-size: 32px;
+    /* font-size: 32px;
     font-weight: 700;
+    margin-bottom: 20px; */
+
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #a36e29;
     margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.2;
   }
   
   .introduction-text {
@@ -59,7 +67,7 @@
     }
   
     .introduction-title {
-      font-size: 24px; /* Slightly smaller title for mobile */
+      font-size: 34px; /* Slightly smaller title for mobile */
     }
   
     .introduction-text {
@@ -80,7 +88,7 @@
     }
   
     .introduction-title {
-      font-size: 28px; /* Adjust title size for tablet */
+      font-size: 36px; /* Adjust title size for tablet */
     }
   
     .introduction-text {
@@ -98,15 +106,23 @@
     .introduction-right {
       flex: 1; /* Each takes 50% of the container */
       width: 50%; /* Ensure they take equal width */
+     
     }
   
     .introduction-title {
-      font-size: 32px; /* Larger title for desktop */
+      font-size: 2.6rem;
+      font-weight: 700;
+      color: #a36e29;
+      margin-bottom: 1rem;
+      text-align: center;
+      line-height: 1.2;
     }
   
     .introduction-text {
-        font-size: 17px;
+        font-size: 18px;
         text-align: justify;
+        width: 70%;
+        margin-left: 15%;
     }
   }
   

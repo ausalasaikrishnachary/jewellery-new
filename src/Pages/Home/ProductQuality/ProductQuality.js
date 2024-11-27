@@ -5,26 +5,26 @@ const ProductQuality = () => {
   return (
     <section className="product-quality-section">
       <div className="product-quality-container">
-        <h1 className="product-quality-heading">Our Products: Quality & Timeless Design</h1>
+        <h1 className="product-quality-heading">Our Vision for the Future</h1>
         <p className="product-quality-para">
-          At Sadashri Jewelkart, we produce hallmark-quality products, combining precision, premium materials, and lasting durability.
-          Each piece undergoes rigorous quality checks, meeting high industry standards and ensuring exceptional performance.
+        At the heart of our mission is a commitment to creating meaningful impact. We aim to empower people through beautiful, sustainable products and forward-thinking business practices. Each of our ventures, from jewelry to investments, is designed to uplift communities, foster growth, and ensure a better tomorrow.
         </p>
         <div className="product-quality-content">
           <div className="product-quality-card left">
-            <h2 className="product-quality-heading-card">Unmatched Craftsmanship</h2>
+            <h2 className="product-quality-heading-card">Guided by Purpose, Driven by Passion </h2>
             <p className="product-quality-para">
-              Our skilled artisans and designers create products with a blend of modern trends and timeless style. Every design reflects innovation
-              and handcrafted precision, making each piece unique and versatile.
+            Discover how our ventures align with a future of innovation, sustainability, and empowerment.
             </p>
+            <p className="Read-more">Read more...</p>
           </div>
           
           <div className="product-quality-card right">
-            <h2 className="product-quality-heading-card">Personalized Creations</h2>
+            <h2 className="product-quality-heading-card">Our Brands:</h2>
             <p className="product-quality-para">
-              We offer customization options, allowing you to personalize select products. Discover our collections crafted with care to bring
-              elegance and quality to any setting.
+            From Sadashri Jewels' timeless beauty to Sadashri Jewelkart's convenience, our brands embody quality, innovation, and passion.
+            
             </p>
+            <p className="Read-more">Read more...</p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Introduction.css'; 
-import IntroImage from './Images/Introduction.jpg'; // Renamed the image import to avoid conflict
+import IntroImage from './Images/Introduction.png'; // Renamed the image import to avoid conflict
 
 const Introduction = () => {
   return (
@@ -15,7 +15,7 @@ const Introduction = () => {
       <div className="introduction-right">
         <h2 className="introduction-title">What We Do</h2>
         <p className="introduction-text">
-        Sadasri Jewelry provides an all-in-one platform designed to streamline and optimize both the offline and online operations of jewelry businesses. With a deep understanding of the jewelry industry’s unique challenges, we offer a solution that seamlessly integrates your in-store and eCommerce systems. From efficient point-of-sale and inventory management tools to a fully customizable online store, our platform empowers jewelry retailers to enhance their business processes, increase sales, and improve customer satisfaction. Whether you're a boutique store or a larger chain, Sadasri Jewelry offers scalable and secure solutions that help you grow your brand while maintaining an exceptional customer experience at every touchpoint.
+        Welcome to a legacy built on vision, craftsmanship, and innovation. At the heart of everything we do is a commitment to excellence and a passion for creating meaningful experiences across multiple industries. From timeless jewelry to dynamic business ventures, our world is guided by the principles of integrity, sustainability, and social responsibility. Explore our journey and the brands that shape the future.
         </p>
       </div>
     </div>

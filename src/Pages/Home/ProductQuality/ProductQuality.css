@@ -2,7 +2,8 @@
 .product-quality-section {
     background: linear-gradient(to right, rgba(119, 112, 112, 1) 0%, rgb(129 127 124) 28%, rgb(42 42 41) 100%);
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
+    margin-top:5%;
   }
   
   /* Container */
@@ -42,7 +43,10 @@
     background-color: #222;
     text-align: left;
   }
-  
+  .Read-more{
+    margin-left:80%
+  }
+
   /* Left and Right Layout for Desktop */
   .product-quality-card.left {
     align-self: flex-start;
@@ -52,6 +56,7 @@
   }
   .product-quality-heading-card{
     text-align: center;
+    font-size: 24px;
   }
   /* Responsive Styling */
   @media (min-width: 768px) {
@@ -67,11 +72,16 @@
   
   @media (min-width: 992px) {
     .product-quality-heading {
-      font-size: 2.5em;
+      font-size: 2.6rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.2;
     }
   
     .product-quality-para {
-      font-size: 17px;
+      font-size: 18px;
     }
   }
   
