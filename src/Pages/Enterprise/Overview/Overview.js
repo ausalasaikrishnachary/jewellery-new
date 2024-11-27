@@ -1,6 +1,9 @@
 import React from 'react';
 import './Overview.css';
 import { Link } from 'react-router-dom';
+import img1 from '../Images/running the cpmny with ethics.png'
+import img2 from '../Images/running the cpmny with ethics 2.png'
+import img3 from '../Images/running the cpmny with ethics 3.png'
 
 function Overview() {
   return (
@@ -9,10 +12,10 @@ function Overview() {
       <div className="introduction-section">
         {/* Left Section: Images and Experience */}
         <div className="introduction-left">
-          <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw3a5962fa/homepage/shopByCategory/festive-ring.jpg" className="introduction-large-img" />
+          <img src={img1} className="introduction-large-img" />
           <div className="introduction-small-images">
-            <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwebf0313b/homepage/shopByCategory/fod-gold-coins.jpg" alt="physiotherapy Image 2" className="introduction-small-img" />
-            <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw93d4f93a/homepage/shopByCategory/festive-bangle.jpg" alt="physiotherapy Image 3" className="introduction-small-img" />
+            <img src={img2} alt="physiotherapy Image 2" className="introduction-small-img" />
+            <img src={img3} alt="physiotherapy Image 3" className="introduction-small-img" />
           </div>
         </div>
 

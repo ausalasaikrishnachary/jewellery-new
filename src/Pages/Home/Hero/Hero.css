@@ -71,7 +71,7 @@
   padding: 0.8rem 2rem;
   font-size: 1rem;
   color: white;
-  background-color: #007bff;
+  background-color: #a36e29;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -80,7 +80,7 @@
 }
 
 .explore-button:hover {
-  background-color: #0056b3;
+  background-color: #a36e29;
 }
 
 .explore-button:focus {
