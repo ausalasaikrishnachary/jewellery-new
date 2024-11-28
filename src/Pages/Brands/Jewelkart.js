@@ -11,6 +11,8 @@ import custimg from "./Images/custestimg.webp"
 import userexp from './Images/userexpimag.jpg'
 import innov from './Images/innovateimg.jpg'
 import busi from './Images/successsimg.jpg'
+import home1 from './Images/websitehome2.png'
+
 
 
 
@@ -28,10 +30,19 @@ function Jewels() {
   return (
     <div style={{ paddingTop: "60px" }}>
 
-      <h3 className="br-brand-title" >Sadashri Jewelkart</h3>
-      <p className="br-brand-description">
-      Sadashri Jewelkart is your go-to <strong className='strongoffline' >online</strong>  jewelry marketplace, offering a wide variety of jewelry for all occasions, from bridal to casual wear.
-      </p>
+<div className="image-container">
+    <img src={home1} alt="Home" className="responsive-image" />
+  </div>
+
+      {/* <div className="banner">
+        <div className="banner-content">
+          <h3 className="br-brand-title">Sadashri Jewelkart</h3>
+          <p className="br-brand-description">
+            Sadashri Jewelkart is your go-to{" "}
+            <strong className="strongoffline">online</strong> jewelry marketplace, offering a wide variety of jewelry for all occasions, from bridal to casual wear.
+          </p>
+        </div>
+      </div> */}
 
       <div className='div-icon'>
 
@@ -58,7 +69,7 @@ function Jewels() {
           <FaStore className="bro-detail-icon" />
           <h4>User Experience</h4>
           <p>
-          Enjoy a seamless shopping experience with features like virtual try-ons and online customization tools.
+            Enjoy a seamless shopping experience with features like virtual try-ons and online customization tools.
           </p>
         </div>
         <div className="bro-detail-image">
@@ -67,7 +78,7 @@ function Jewels() {
       </section>
 
       <section className="storebro-experience-section">
-      <div className="bro-detail-image">
+        <div className="bro-detail-image">
           <img src={innov} alt="Store Experience" />
         </div>
         <div className="bro-detail-box">
@@ -76,7 +87,7 @@ function Jewels() {
           <p>Discover our newest collections and online-exclusive designs. Always pushing the boundaries of jewelry design.</p>
 
         </div>
-      
+
       </section>
       <section className="storebro-experience-section">
         <div className="bro-detail-box">

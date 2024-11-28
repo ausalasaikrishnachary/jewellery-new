@@ -8,6 +8,8 @@ import Specialcolimg from './Images/keyofferings4.png'
 import storeimg from "./Images/storeimage.webp"
 import achimg from "./Images/achieveimage.jpg"
 import custimg from "./Images/custestimg.webp"
+import home from './Images/websitehome.png'
+
 
 
 
@@ -24,11 +26,14 @@ function Jewels() {
   ];
   return (
     <div style={{ paddingTop: "60px" }}>
+    <div className="image-container">
+    <img src={home} alt="Home" className="responsive-image" />
+  </div>
 
-      <h3 className="br-brand-title" >Sadashri Jewels</h3>
+      {/* <h3 className="br-brand-title" >Sadashri Jewels</h3>
       <p className="br-brand-description">
         Sadashri Jewels is an <strong className='strongoffline'>offline</strong> jewelry store known for its timeless designs and premium craftsmanship. We bring you an exclusive collection that blends tradition with elegance.
-      </p>
+      </p> */}
 
       <div className='div-icon'>
 
