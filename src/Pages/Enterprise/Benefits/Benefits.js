@@ -1,8 +1,8 @@
 import React from 'react';
 import './Benefits.css';
-import about3 from '../../Aboutus/Images/PILLERSOFVISION1.png';
-import about4 from '../../Aboutus/Images/PILLERSOFVISION2.png';
-import about5 from '../../Aboutus/Images/PILLERSOFVISION3.png';
+import about3 from '../Images/product development.png';
+import about4 from '../Images/strategic partnership.png';
+import about5 from '../Images//brand investment.png';
 
 function Benefits() {
   return (

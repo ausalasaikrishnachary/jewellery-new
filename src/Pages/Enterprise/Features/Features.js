@@ -1,5 +1,7 @@
 import React from 'react'
 import './Features.css';
+import img1 from '../Images/companyy ethics.png'
+import img2 from '../Images/companyy ethics2.png'
 
 function Features() {
   return (
@@ -18,8 +20,8 @@ function Features() {
       </div>
 
       <div className="choose-image-gallery">
-        <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw6cdc8e02/homepage/shopByCategory/festive-mangalsutra.jpg" alt="Jewelry item 1" />
-        <img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw6cdc8e02/homepage/shopByCategory/festive-mangalsutra.jpg" alt="Jewelry item 2" />
+        <img src={img1} alt="Jewelry item 1" />
+        <img src={img2} alt="Jewelry item 2" />
       </div>
     </div>
 
