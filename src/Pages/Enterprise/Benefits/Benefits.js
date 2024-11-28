@@ -1,5 +1,8 @@
 import React from 'react';
 import './Benefits.css';
+import about3 from '../../Aboutus/Images/PILLERSOFVISION1.png';
+import about4 from '../../Aboutus/Images/PILLERSOFVISION2.png';
+import about5 from '../../Aboutus/Images/PILLERSOFVISION3.png';
 
 function Benefits() {
   return (
@@ -33,6 +36,7 @@ function Benefits() {
         <h2>What We Do: A Diverse Portfolio of Ventures</h2>
         <div className="portfolio-cards">
           <div className="portfolio-card">
+          <img src={about3} alt="Empowering Communities" className="pillar-image" />
             <h3>Product Development:</h3>
             <p>
               From Sadashri Jewels to Sadashri Jewelkart, we build brands that blend tradition with modernity, offering both 
@@ -40,12 +44,14 @@ function Benefits() {
             </p>
           </div>
           <div className="portfolio-card">
+          <img src={about4} alt="Empowering Communities" className="pillar-image" />
             <h3>Strategic Partnerships:</h3>
             <p>
             We collaborate with like-minded organizations to foster innovation, support community development, and expand our positive social and environmental impact across diverse regions and industries.
             </p>
           </div>
           <div className="portfolio-card">
+          <img src={about5} alt="Empowering Communities" className="pillar-image" />
             <h3>Brand Investments:</h3>
             <p>
             We invest in businesses that share our commitment to innovation, sustainability, and societal growth, empowering them to drive meaningful change and create value for communities and stakeholders.

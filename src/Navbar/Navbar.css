@@ -57,8 +57,8 @@
 .navbar-dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
-    color: #fff;
+    background: linear-gradient(to right, rgba(244, 244, 244, 1) 0%, rgb(255 246 231) 28%, rgb(255 246 231) 100%);
+    color: #333;
     padding: 1rem;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -68,15 +68,15 @@
 }
   
 .navbar-dropdown-content a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     padding: 0.5rem 0;
     display: block;
 }
   
 .navbar-dropdown-content a:hover {
-    background-color: #2D64FF;
-    color: #fff;
+    /* background-color: #2D64FF; */
+    color: goldenrod;
 }
   
 /* Show the dropdown when hovering over the Services link */
