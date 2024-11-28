@@ -1,13 +1,16 @@
 import React from 'react'
 import './Jewels.css'
 import { FaGem, FaStore, FaLaptop } from 'react-icons/fa';  // Importing icons from react-icons
-import engring from './Images/eng-ring.jpeg'
-import Necklace from './Images/necklaceimg.webp'
-import CustomPiece from './Images/custompiece.jpg'
-import Specialcolimg from './Images/specialcollectionimg.jpg'
+import engring from './Images/bridaljewellery.png'
+import Necklace from './Images/casualwear.png'
+import CustomPiece from './Images/finejewellery.png'
+import Specialcolimg from './Images/customized.png'
 import storeimg from "./Images/storeimage.webp"
 import achimg from "./Images/achieveimage.jpg"
 import custimg from "./Images/custestimg.webp"
+import userexp from './Images/userexpimag.jpg'
+import innov from './Images/innovateimg.jpg'
+import busi from './Images/successsimg.jpg'
 
 
 
@@ -59,13 +62,13 @@ function Jewels() {
           </p>
         </div>
         <div className="bro-detail-image">
-          <img src={storeimg} alt="Store Experience" />
+          <img src={userexp} alt="Store Experience" />
         </div>
       </section>
 
       <section className="storebro-experience-section">
       <div className="bro-detail-image">
-          <img src={achimg} alt="Store Experience" />
+          <img src={innov} alt="Store Experience" />
         </div>
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
@@ -83,7 +86,7 @@ function Jewels() {
 
         </div>
         <div className="bro-detail-image">
-          <img src={custimg} alt="Store Experience" />
+          <img src={busi} alt="Store Experience" />
         </div>
       </section>
 
