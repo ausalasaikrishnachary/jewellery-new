@@ -1,6 +1,6 @@
 import React from 'react'
 import './Features.css';
-import img1 from '../Images/companyy ethics.png'
+import img1 from '../Images//enterprise.png'
 import img2 from '../Images/companyy ethics2.png'
 
 function Features() {
@@ -21,7 +21,7 @@ function Features() {
 
       <div className="choose-image-gallery">
         <img src={img1} alt="Jewelry item 1" />
-        <img src={img2} alt="Jewelry item 2" />
+        {/* <img src={img2} alt="Jewelry item 2" /> */}
       </div>
     </div>
 
