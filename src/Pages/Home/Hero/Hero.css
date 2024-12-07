@@ -6,20 +6,31 @@
 
 /* Custom styles for the carousel */
 .hero-carousel {
-  height: 80%; /* Adjusted height */
+  height: 80%;
 }
 
 /* Container for each slide's background */
 .hero-slide {
   position: relative;
-  height: 95%; /* Match the carousel height */
+  height: 95%;
 }
 
 /* Style the background image of each slide */
 .hero-image {
   width: 100%;
-  height: 100%; /* Adjust height to fit the container */
+  height: 100%;
   object-fit: cover;
+}
+
+/* Overlay effect */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 /* Text container over the image background */
@@ -35,7 +46,7 @@
   align-items: center;
   color: white;
   text-align: center;
-  z-index: 1; /* Ensure text is on top of the image */
+  z-index: 2;
   padding: 0 20px;
 }
 
@@ -51,16 +62,6 @@
   margin-top: 1rem;
   font-size: 24px;
 }
-
-/* Ensures text spans on new lines */
-/* .hero-line1,
-.hero-line2,
-.hero-subline1,
-.hero-subline2 {
-  display: block;
-  font-size: 32px;
-} */
-
 
 /* Explore Button styles */
 .explore-button-container {
@@ -80,7 +81,7 @@
 }
 
 .explore-button:hover {
-  background-color: #a36e29;
+  background-color: #8d5e22;
 }
 
 .explore-button:focus {
@@ -99,11 +100,11 @@
   }
 
   .hero-carousel {
-    height: 90%; /* Adjusted height */
+    height: 90%;
   }
 
   .hero-slide {
-    height: 90%; /* Match the carousel height */
+    height: 90%;
   }
 
   .explore-button {

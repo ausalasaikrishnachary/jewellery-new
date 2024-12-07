@@ -19,16 +19,6 @@ const ContactForm = () => {
       <div className="contact-page-container">
       <h1>Contact Us</h1>
 
-      {/* General Contact Information */}
-      <div className="contact-card">
-        <FaEnvelope className="contact-icon" />
-        <h3>General Contact Information</h3>
-        
-        <p>
-          Reach us via email, phone, or visit us at Sadashri Ventures' main office. 
-          We’re here to assist you with inquiries.
-        </p>
-      </div>
 
       {/* Investor Relations */}
       <div className="contact-card">
@@ -66,6 +56,17 @@ const ContactForm = () => {
         <h3>FAQ</h3>
         <p>
           Find answers to common questions from clients, investors, and job seekers in our FAQ section.
+        </p>
+      </div>
+      
+      {/* General Contact Information */}
+      <div className="contact-card">
+        <FaEnvelope className="contact-icon" />
+        <h3>General Contact Information</h3>
+        
+        <p>
+          Reach us via email, phone, or visit us at Sadashri Ventures' main office. 
+          We’re here to assist you with inquiries.
         </p>
       </div>
     </div>
