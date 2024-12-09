@@ -34,12 +34,12 @@
 
 /* Styling for the bullet points container */
 .LatestUpdate-points {
-        margin-top: 30px;
-        text-align: left;
-        padding-left: 195px;
-        list-style-type: disc;
-        color: #fff;
-        width: 74%;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 195px;
+    list-style-type: disc;
+    color: #fff;
+    width: 74%;
 }
 
 /* Styling for individual bullet points */
@@ -57,17 +57,17 @@
     color: #ffd700; /* Use a gold-like color for emphasis */
 }
 
-.Brand-aligment{
-    margin-left:20px;
+.Brand-aligment {
+    margin-left: 20px;
 }
 
-.LatestUpdate-paragraph{
+.LatestUpdate-paragraph {
     font-size: 20px;
-        width: 80%;
-        margin: 10px auto;
-        text-align: justify;
-    
+    width: 80%;
+    margin: 10px auto;
+    text-align: justify;
 }
+
 /* Text Styles */
 .LatestUpdate-card h2,
 .LatestUpdate-card p {
@@ -90,7 +90,43 @@
     text-align: justify; /* Justify text for readability */
 }
 
-/* Tablet View */
+/* Mobile View (Extra Small Devices) */
+@media (max-width: 767px) {
+    .LatestUpdate-card {
+        max-width: 88%;
+        padding: 15px;
+        /* margin: 10px auto; */
+        margin-left: 5px;
+    }
+
+    .LatestUpdate-card h2 {
+        font-size: 20px;
+    }
+
+    .LatestUpdate-card p {
+        font-size: 14px;
+    }
+
+    .LatestUpdate-points {
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    .LatestUpdate-points li {
+        font-size: 14px;
+    }
+
+    .Brand-aligment {
+        margin-left: 10px;
+    }
+
+    .LatestUpdate-paragraph {
+        font-size: 16px;
+    }
+    
+}
+
+/* Tablet View (iPad) */
 @media (min-width: 768px) and (max-width: 1024px) {
     .LatestUpdate-card {
         max-width: 70%;
@@ -103,6 +139,23 @@
     }
 
     .LatestUpdate-card p {
+        font-size: 18px;
+    }
+
+    .LatestUpdate-points {
+        padding-left: 40px;
+        width: 80%;
+    }
+
+    .LatestUpdate-points li {
+        font-size: 16px;
+    }
+
+    .Brand-aligment {
+        margin-left: 15px;
+    }
+
+    .LatestUpdate-paragraph {
         font-size: 18px;
     }
 }
@@ -126,21 +179,21 @@
         margin: 10px auto;
         text-align: justify;
     }
-}
 
-/* Extra Small Devices (e.g., mobile) */
-@media (max-width: 767px) {
-    .LatestUpdate-card {
-        max-width: 95%;
-        padding: 15px;
-        margin: 10px auto;
+    .LatestUpdate-points {
+        padding-left: 195px;
+        width: 74%;
     }
 
-    .LatestUpdate-card h2 {
+    .LatestUpdate-points li {
+        font-size: 16px;
+    }
+
+    .Brand-aligment {
+        margin-left: 20px;
+    }
+
+    .LatestUpdate-paragraph {
         font-size: 20px;
-    }
-
-    .LatestUpdate-card p {
-        font-size: 14px;
     }
 }
