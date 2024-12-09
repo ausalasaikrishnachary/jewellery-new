@@ -38,6 +38,58 @@
   /* margin-top: 150px; */
 }
 
+
+@keyframes comeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(200px); /* Starts further down */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Moves to its original position */
+  }
+}
+
+.infographic-image {
+  animation: comeUp 1.5s ease-out forwards;
+  opacity: 0; /* Ensure the image starts invisible */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Optional smooth transition */
+}
+
+@keyframes comeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(200px); /* Start position */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End position */
+  }
+}
+
+.image-section img {
+  animation: comeUp 1.5s ease-out forwards;
+  opacity: 0; /* Ensures the image starts invisible */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Optional smooth transition */
+}
+@keyframes comeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(200px); /* Starts from below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Ends at its original position */
+  }
+}
+
+.pillar-image {
+  animation: comeUp 1.5s ease-out forwards;
+  opacity: 0; /* Starts invisible */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Optional for smoothness */
+}
+
+
 /* Responsive Styles for Tablets (iPads) */
 @media (max-width: 768px) {
   .sec-1-banner-section {

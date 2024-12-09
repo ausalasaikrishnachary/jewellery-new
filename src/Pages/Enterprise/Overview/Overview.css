@@ -132,6 +132,24 @@
     background-color: #a36e29;
 }
 
+
+
+@keyframes comeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(200px); /* Starts further down for a dramatic effect */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Moves to its original position */
+    }
+  }
+  
+  .introduction-left {
+    animation: comeUp 1.5s ease-out forwards; /* Slower animation with a smooth ease-out effect */
+  }
+  
+
 /* Media Queries for Responsiveness */
 
 /* Tablets (iPad) */

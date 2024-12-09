@@ -72,6 +72,25 @@
     color: #555;
     line-height: 1.5;
   }
+
+
+  @keyframes comeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(200px); /* Starts further down */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Moves to its original position */
+    }
+  }
+  
+  .choose-image-gallery img {
+    animation: comeUp 1.5s ease-out forwards;
+    animation-delay: 0.3s; /* Adds a slight delay for a smoother effect */
+    opacity: 0; /* Ensure the images start invisible */
+  }
+  
   
   /* RESPONSIVE STYLES */
   
