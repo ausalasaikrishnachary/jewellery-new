@@ -42,6 +42,7 @@ function Navbar() {
 
       <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <Link to="/">Home</Link>
+        <Link to="/AboutUs">Purpose</Link>
 
         {/* <div
           className="navbar-dropdown"
@@ -86,7 +87,7 @@ function Navbar() {
           )}
         </div>
 
-        <Link to="/AboutUs">About Us</Link>
+        
         <Link to="/contactUs">Contact Us</Link>
       </nav>
     </header>

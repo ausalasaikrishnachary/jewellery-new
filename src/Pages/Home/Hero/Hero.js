@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero-carousel-container " style={{paddingTop:"83px"}}>
+    <div className="hero-carousel-container" style={{ paddingTop: '83px' }}>
       <Carousel
         autoPlay
         infiniteLoop
@@ -27,14 +27,13 @@ const Hero = () => {
       >
         {/* Slide 1 */}
         <div className="hero-slide">
+          <div className="hero-overlay"></div>
           <img
-            // src="https://www.lalithaajewellery.com/assets/img/home-banner-1.webp"
             src={banner1}
             alt="Innovative Solutions for a Smarter Tomorrow"
             className="hero-image"
           />
           <div className="hero-text-container">
-            {/* Uncomment if you want text overlays */}
             <div className="hero-main-text">
               <span className="hero-line1">Crafting Timeless Connections</span>
             </div>
@@ -45,7 +44,6 @@ const Hero = () => {
                 all our endeavours.
               </span>
             </div>
-            {/* Explore Button */}
             <div className="explore-button-container">
               <button className="explore-button" onClick={handleExploreClick}>
                 Explore
@@ -56,24 +54,20 @@ const Hero = () => {
 
         {/* Slide 2 */}
         <div className="hero-slide">
+          <div className="hero-overlay"></div>
           <img
-            //  src="https://www.lalithaajewellery.com/assets/img/home-banner-4.webp"
             src={banner2}
             alt="Practical Technologies Shaping the Future"
             className="hero-image"
           />
           <div className="hero-text-container">
-            {/* Uncomment if you want text overlays */}
             <div className="hero-main-text">
               <span className="hero-line1">Rooted in Tradition, Inspired by Innovation</span>
-              <span className="hero-line1">The Legacy Behind the Vision:</span>
             </div>
             <div className="hero-sub-text">
               <span>
                 Discover the family behind the driving force, a history of
-                entrepreneurship, and values that continue to guide us. Innovation
-                meets tradition in everything we create. Experience the fusion of
-                heritage and modernity in each of our brands.
+                entrepreneurship, and values that continue to guide us.
               </span>
             </div>
             <div className="explore-button-container">
@@ -86,14 +80,13 @@ const Hero = () => {
 
         {/* Slide 3 */}
         <div className="hero-slide">
+          <div className="hero-overlay"></div>
           <img
-            // src="https://www.lalithaajewellery.com/assets/img/home-banner-5.webp"
             src={banner3}
             alt="Seamlessly connecting solutions for lasting impact"
             className="hero-image"
           />
           <div className="hero-text-container">
-            {/* Uncomment if you want text overlays */}
             <div className="hero-main-text">
               <span className="hero-line1">A Commitment to Sustainability and Excellence</span>
             </div>
@@ -113,24 +106,21 @@ const Hero = () => {
 
         {/* Slide 4 */}
         <div className="hero-slide">
+          <div className="hero-overlay"></div>
           <img
-            // src="https://www.lalithaajewellery.com/assets/img/home-banner-5.webp"
             src={banner4}
             alt="Seamlessly connecting solutions for lasting impact"
             className="hero-image"
           />
           <div className="hero-text-container">
-            {/* Uncomment if you want text overlays */}
             <div className="hero-main-text">
               <span className="hero-line1">Empowering Dreams, Building Legacies</span>
-              <span className="hero-line1">Sadashri Ventures:</span>
             </div>
             <div className="hero-sub-text">
               <span>
                 A dynamic corporate entity that brings together diverse
                 investments, innovative projects, and a vision for sustainable
-                growth. Behind every creation, investment, and initiative is the
-                ambition to make a lasting impact.
+                growth.
               </span>
             </div>
             <div className="explore-button-container">

@@ -3,7 +3,7 @@ import './AboutUs.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArchway, faPalette, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import about1 from './Images/wisdomofourelderss.png'
-import about2 from './Images/OURLEGACY.png';
+import about2 from './Images/about1.png';
 import about3 from './Images/PILLERSOFVISION1.png';
 import about4 from './Images/PILLERSOFVISION2.png';
 import about5 from './Images/PILLERSOFVISION3.png';

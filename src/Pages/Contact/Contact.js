@@ -3,11 +3,12 @@ import React from 'react';
 import './Contact.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-import { faGoogle, faTwitter, faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaUserTie, FaQuestionCircle } from "react-icons/fa";
+
 const ContactForm = () => {
   return (
     <div>
-
+      
       <div className="cont-section-container">
         <div className="cont-banner">
           <div className="cont-banner-text">
@@ -15,13 +16,65 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
+      <div className="contact-page-container">
+      <h1>Contact Us</h1>
+
+
+      {/* Investor Relations */}
+      <div className="contact-card">
+        <FaUserTie className="contact-icon" />
+        <h3>Investor Relations</h3>
+        <ul>
+          <li>How investors can connect with us.</li>
+          <li>Details on investment opportunities, reports, and press releases.</li>
+        </ul>
+      </div>
+
+      {/* Career Opportunities */}
+      <div className="contact-card">
+        <FaMapMarkerAlt className="contact-icon" />
+        <h3>Career Opportunities</h3>
+        <ul>
+          <li>Explore current job openings at Sadashri Ventures.</li>
+          <li>Learn about our application process and company culture.</li>
+          <li>Discover employee benefits and growth opportunities.</li>
+        </ul>
+      </div>
+
+      {/* Media & Press Inquiries */}
+      <div className="contact-card">
+        <FaPhoneAlt className="contact-icon" />
+        <h3>Media & Press Inquiries</h3>
+        <p>
+          Access press releases, media kits, or schedule interviews with our media relations team.
+        </p>
+      </div>
+
+      {/* FAQ */}
+      <div className="contact-card">
+        <FaQuestionCircle className="contact-icon" />
+        <h3>FAQ</h3>
+        <p>
+          Find answers to common questions from clients, investors, and job seekers in our FAQ section.
+        </p>
+      </div>
+      
+      {/* General Contact Information */}
+      <div className="contact-card">
+        <FaEnvelope className="contact-icon" />
+        <h3>General Contact Information</h3>
+        
+        <p>
+          Reach us via email, phone, or visit us at Sadashri Ventures' main office. 
+          We’re here to assist you with inquiries.
+        </p>
+      </div>
+    </div>
       <div className="contact-container">
         <div className="contact-form">
           <h2>Contact us</h2>
-
           <p>
             Our ravely-reviewed Customer Service team of non-commissioned diamond and jewelry experts is here for you 24/7.
-
           </p>
           <div className="contact-info">
             <p>
@@ -35,14 +88,6 @@ const ContactForm = () => {
               <span>Building No./Flat No.: NO 1323/1324, 16TH B CROSS HOUSING BOARD COLONY EWS 3RD PHASE, Yelahanka New Town, Bengaluru, Karnataka-560064</span>
             </p>
           </div>
-          {/* <div className="social-icons">
-            <FontAwesomeIcon icon={faGoogle} />
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faFacebookF} />
-          </div> */}
-
-
               <div className="cont-social-container">
       <a href="https://www.instagram.com/sadashrijewelkart_official" className="cont-social-link" target="_blank" rel="noopener noreferrer">
         <img src={'https://cdn-icons-png.flaticon.com/512/5968/5968776.png'} alt="Instagram" />
@@ -55,8 +100,8 @@ const ContactForm = () => {
       <a href="https://www.youtube.com/SadashriJewelkart" className="cont-social-link" target="_blank" rel="noopener noreferrer">
         <img src={'https://static.vecteezy.com/system/resources/previews/011/998/173/non_2x/youtube-icon-free-vector.jpg'} alt="YouTube" />
         <span>Sadāshrī Jewelkart</span>
-    </a></div>
-          
+    </a>
+    </div>  
         </div>
         <div className="form-wrapper">
           <form>
@@ -87,11 +132,7 @@ const ContactForm = () => {
             <button className='submit-but' type="submit">Submit</button>
           </form>
         </div>
-
-
-
       </div>
-
       {/* Map Section */}
       <div className="map-section">
         <h2>Get In Touch With Us Here</h2>

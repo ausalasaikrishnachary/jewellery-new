@@ -47,7 +47,8 @@
   
   .choose-image-gallery img {
     width: 100%;
-    max-width: 300px; /* Restricting the image size */
+    margin-left: 112px;
+    max-width: 445px;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
