@@ -9,6 +9,11 @@ import storeimg from "./Images/storeimage.webp"
 import achimg from "./Images/achieveimage.jpg"
 import custimg from "./Images/custestimg.webp"
 import home from './Images/websitehome.png'
+import JewelSection1 from './JewelSection1/JewelSection';
+import JewelSection2 from './JewelSection2/JewelSection';
+import JewelSection3 from './JewelSection3/JewelSection';
+import JewelSection4 from './JewelSection4/JewelSection';
+
 
 
 
@@ -17,31 +22,34 @@ import home from './Images/websitehome.png'
 function Jewels() {
 
 
-  const categories = [
-    { title: "Engagement Rings", image: engring, link: "#" },
-    { title: "Necklaces", image: Necklace, link: "#" },
-    { title: "Custom Pieces", image: CustomPiece, link: "#" },
-    { title: "Special Collections", image: Specialcolimg, link: "#" },
+  // const categories = [
+  //   { title: "Engagement Rings", image: engring, link: "#" },
+  //   { title: "Necklaces", image: Necklace, link: "#" },
+  //   { title: "Custom Pieces", image: CustomPiece, link: "#" },
+  //   { title: "Special Collections", image: Specialcolimg, link: "#" },
 
-  ];
+  // ];
   return (
-    <div style={{ paddingTop: "60px" }}>
-    <div className="image-container">
-    <img src={home} alt="Home" className="responsive-image" />
-  </div>
+    <div >
 
-      {/* <h3 className="br-brand-title" >Sadashri Jewels</h3>
-      <p className="br-brand-description">
-        Sadashri Jewels is an <strong className='strongoffline'>offline</strong> jewelry store known for its timeless designs and premium craftsmanship. We bring you an exclusive collection that blends tradition with elegance.
-      </p> */}
+      <JewelSection1/>
+      <JewelSection2/>
+      <JewelSection3/>
+      <JewelSection4/>
 
-      <div className='div-icon'>
+      {/* <div className="image-container">
+        <img src={home} alt="Home" className="responsive-image" />
+      </div> */}
+
+
+
+      {/* <div className='div-icon'>
 
         <FaGem className="br-detail-icon" />
         <h2>Key Offerings</h2>
-      </div>
+      </div> */}
 
-      <div className="category-list">
+      {/* <div className="category-list">
         {categories.map((category, index) => (
           <div key={index} className="category-card">
             <img
@@ -53,9 +61,9 @@ function Jewels() {
             <a href={category.link}>Explore &#8250;</a>
           </div>
         ))}
-      </div>
+      </div> */}
 
-      <section className="storebro-experience-section">
+      {/* <section className="storebro-experience-section">
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>Store Experience</h4>
@@ -66,10 +74,10 @@ function Jewels() {
         <div className="bro-detail-image">
           <img src={storeimg} alt="Store Experience" />
         </div>
-      </section>
+      </section> */}
 
-      <section className="storebro-experience-section">
-      <div className="bro-detail-image">
+      {/* <section className="storebro-experience-section">
+        <div className="bro-detail-image">
           <img src={achimg} alt="Store Experience" />
         </div>
         <div className="bro-detail-box">
@@ -78,9 +86,9 @@ function Jewels() {
           <p>Celebrating our anniversary with recognition for excellence and milestones in jewelry craftsmanship.</p>
 
         </div>
-      
-      </section>
-      <section className="storebro-experience-section">
+
+      </section> */}
+      {/* <section className="storebro-experience-section">
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>Customer Testimonials</h4>
@@ -90,7 +98,10 @@ function Jewels() {
         <div className="bro-detail-image">
           <img src={custimg} alt="Store Experience" />
         </div>
-      </section>
+      </section> */}
+
+
+
 
 
     </div>

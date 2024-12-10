@@ -98,42 +98,7 @@
 
 
 
-      @keyframes comeUp {
-        0% {
-          opacity: 0;
-          transform: translateY(200px); /* Starts further down */
-        }
-        100% {
-          opacity: 1;
-          transform: translateY(0); /* Moves to its original position */
-        }
-      }
-      
-      .bro-detail-image img {
-        animation: comeUp 1.5s ease-out forwards;
-        opacity: 0; /* Ensure the image starts invisible */
-      }
 
-
-
-
-      @keyframes comeUp {
-        0% {
-          opacity: 0;
-          transform: translateY(200px); /* Starts from below */
-        }
-        100% {
-          opacity: 1;
-          transform: translateY(0); /* Ends at the original position */
-        }
-      }
-      
-      .category-image {
-        animation: comeUp 1.5s ease-out forwards;
-        opacity: 0; /* Ensure the image starts invisible */
-        transition: transform 0.3s ease, opacity 0.3s ease; /* Optional smooth transition */
-      }
-      
       
       /* Responsive Styles */
       @media (max-width: 768px) {

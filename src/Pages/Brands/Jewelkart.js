@@ -12,6 +12,13 @@ import userexp from './Images/userexpimag.jpg'
 import innov from './Images/innovateimg.jpg'
 import busi from './Images/successsimg.jpg'
 import home1 from './Images/websitehome2.png'
+import JewelkartSection1 from './JewelkartSection1/JewelkartSection';
+import JewelkartSection2 from './JewelkartSection2/JewelkartSection';
+import JewelkartSection3 from './JewelkartSection3/JewelkartSection';
+import JewelkartSection4 from './JewelkartSection4/JewelkartSection';
+
+
+
 
 
 
@@ -28,29 +35,21 @@ function Jewels() {
 
   ];
   return (
-    <div style={{ paddingTop: "60px" }}>
+    <div>
 
-<div className="image-container">
-    <img src={home1} alt="Home" className="responsive-image" />
-  </div>
-
-      {/* <div className="banner">
-        <div className="banner-content">
-          <h3 className="br-brand-title">Sadashri Jewelkart</h3>
-          <p className="br-brand-description">
-            Sadashri Jewelkart is your go-to{" "}
-            <strong className="strongoffline">online</strong> jewelry marketplace, offering a wide variety of jewelry for all occasions, from bridal to casual wear.
-          </p>
-        </div>
+      {/* <div className="image-container">
+        <img src={home1} alt="Home" className="responsive-image" />
       </div> */}
 
-      <div className='div-icon'>
+
+
+      {/* <div className='div-icon'>
 
         <FaGem className="br-detail-icon" />
         <h2>Key Offerings</h2>
-      </div>
+      </div> */}
 
-      <div className="category-list">
+      {/* <div className="category-list">
         {categories.map((category, index) => (
           <div key={index} className="category-card">
             <img
@@ -62,9 +61,20 @@ function Jewels() {
             <a href={category.link}>Explore &#8250;</a>
           </div>
         ))}
-      </div>
+      </div> */}
 
-      <section className="storebro-experience-section">
+
+<JewelkartSection1/>
+<JewelkartSection2/>
+<JewelkartSection3/>
+<JewelkartSection4/>
+
+
+
+
+
+
+      {/* <section className="storebro-experience-section">
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>User Experience</h4>
@@ -75,8 +85,11 @@ function Jewels() {
         <div className="bro-detail-image">
           <img src={userexp} alt="Store Experience" />
         </div>
-      </section>
+      </section> */}
 
+
+
+{/* 
       <section className="storebro-experience-section">
         <div className="bro-detail-image">
           <img src={innov} alt="Store Experience" />
@@ -88,8 +101,11 @@ function Jewels() {
 
         </div>
 
-      </section>
-      <section className="storebro-experience-section">
+      </section> */}
+
+
+
+      {/* <section className="storebro-experience-section">
         <div className="bro-detail-box">
           <FaStore className="bro-detail-icon" />
           <h4>Success Stories</h4>
@@ -99,7 +115,7 @@ function Jewels() {
         <div className="bro-detail-image">
           <img src={busi} alt="Store Experience" />
         </div>
-      </section>
+      </section> */}
 
 
     </div>

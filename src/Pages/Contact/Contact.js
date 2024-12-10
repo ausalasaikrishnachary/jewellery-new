@@ -1,27 +1,37 @@
 // ContactForm.js
-import React from 'react';
+import React, { useEffect } from "react";
 import './Contact.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaUserTie, FaQuestionCircle } from "react-icons/fa";
+import AOS from "aos"; // Import AOS library
+import "aos/dist/aos.css"; // Import AOS styles
 
 const ContactForm = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Duration of the animations
+      once: false, // Trigger animations only once
+      mirror: true, // Trigger animations on scroll back
+    });
+  }, []);
   return (
     <div>
-      
+
       <div className="cont-section-container">
         <div className="cont-banner">
-          <div className="cont-banner-text">
+          {/* <div className="cont-banner-text">
             Contact Us
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="contact-page-container">
-      <h1>Contact Us</h1>
-
-
       {/* Investor Relations */}
-      <div className="contact-card">
+      <div
+        className="contact-card"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
         <FaUserTie className="contact-icon" />
         <h3>Investor Relations</h3>
         <ul>
@@ -31,7 +41,11 @@ const ContactForm = () => {
       </div>
 
       {/* Career Opportunities */}
-      <div className="contact-card">
+      <div
+        className="contact-card"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
         <FaMapMarkerAlt className="contact-icon" />
         <h3>Career Opportunities</h3>
         <ul>
@@ -42,7 +56,11 @@ const ContactForm = () => {
       </div>
 
       {/* Media & Press Inquiries */}
-      <div className="contact-card">
+      <div
+        className="contact-card"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
         <FaPhoneAlt className="contact-icon" />
         <h3>Media & Press Inquiries</h3>
         <p>
@@ -51,21 +69,28 @@ const ContactForm = () => {
       </div>
 
       {/* FAQ */}
-      <div className="contact-card">
+      <div
+        className="contact-card"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
         <FaQuestionCircle className="contact-icon" />
         <h3>FAQ</h3>
         <p>
           Find answers to common questions from clients, investors, and job seekers in our FAQ section.
         </p>
       </div>
-      
+
       {/* General Contact Information */}
-      <div className="contact-card">
+      <div
+        className="contact-card"
+        data-aos="fade-up"
+        data-aos-delay="600"
+      >
         <FaEnvelope className="contact-icon" />
         <h3>General Contact Information</h3>
-        
         <p>
-          Reach us via email, phone, or visit us at Sadashri Ventures' main office. 
+          Reach us via email, phone, or visit us at Sadashri Ventures' main office.
           We’re here to assist you with inquiries.
         </p>
       </div>
@@ -88,20 +113,20 @@ const ContactForm = () => {
               <span>Building No./Flat No.: NO 1323/1324, 16TH B CROSS HOUSING BOARD COLONY EWS 3RD PHASE, Yelahanka New Town, Bengaluru, Karnataka-560064</span>
             </p>
           </div>
-              <div className="cont-social-container">
-      <a href="https://www.instagram.com/sadashrijewelkart_official" className="cont-social-link" target="_blank" rel="noopener noreferrer">
-        <img src={'https://cdn-icons-png.flaticon.com/512/5968/5968776.png'} alt="Instagram" />
-        <span>sadashrijewelkart_official</span>
-      </a>
-      <a href="https://www.facebook.com/SadashriJewelkart" className="cont-social-link" target="_blank" rel="noopener noreferrer">
-        <img src={'https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png'} alt="Facebook" />
-        <span>Sadāshrī Jewelkart</span>
-      </a>
-      <a href="https://www.youtube.com/SadashriJewelkart" className="cont-social-link" target="_blank" rel="noopener noreferrer">
-        <img src={'https://static.vecteezy.com/system/resources/previews/011/998/173/non_2x/youtube-icon-free-vector.jpg'} alt="YouTube" />
-        <span>Sadāshrī Jewelkart</span>
-    </a>
-    </div>  
+          <div className="cont-social-container">
+            <a href="https://www.instagram.com/sadashrijewelkart_official" className="cont-social-link" target="_blank" rel="noopener noreferrer">
+              <img src={'https://cdn-icons-png.flaticon.com/512/5968/5968776.png'} alt="Instagram" />
+              <span>sadashrijewelkart_official</span>
+            </a>
+            <a href="https://www.facebook.com/SadashriJewelkart" className="cont-social-link" target="_blank" rel="noopener noreferrer">
+              <img src={'https://static.vecteezy.com/system/resources/previews/018/930/476/non_2x/facebook-logo-facebook-icon-transparent-free-png.png'} alt="Facebook" />
+              <span>Sadāshrī Jewelkart</span>
+            </a>
+            <a href="https://www.youtube.com/SadashriJewelkart" className="cont-social-link" target="_blank" rel="noopener noreferrer">
+              <img src={'https://static.vecteezy.com/system/resources/previews/011/998/173/non_2x/youtube-icon-free-vector.jpg'} alt="YouTube" />
+              <span>Sadāshrī Jewelkart</span>
+            </a>
+          </div>
         </div>
         <div className="form-wrapper">
           <form>
