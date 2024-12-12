@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
-import 'animate.css'; // Import Animate.css styles
+// import 'animate.css'; 
 import './Hero.css'; // Import custom styles
 import banner1 from '../Hero/Images/1.png';
 import banner2 from '../Hero/Images/2.png';

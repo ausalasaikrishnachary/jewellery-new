@@ -215,6 +215,15 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.ab_responsive-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  display: block;
+  margin-top: 54px;
+}
 
   
 }
@@ -734,7 +743,7 @@
 /* Responsive Styling */
 @media (max-width: 768px) { /* Tablet View */
   .sec-5-cta-section {
-    padding: 1.5rem;
+    width: 100%;
   }
 
   .sec-5-cta-title {

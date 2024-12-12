@@ -226,6 +226,7 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
+        margin-left: 0px;
     }
 
     .introduction-large-img {

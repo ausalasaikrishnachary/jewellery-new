@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* General overflow styling for all views */
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Mobile View (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+  .container {
+    overflow-x: scroll; /* Enable horizontal scrolling if content overflows */
+    overflow-y: auto;   /* Auto vertical scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+  }
+}
+
+/* iPad View (768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+  }
+}
+
